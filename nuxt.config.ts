@@ -59,5 +59,4 @@ export default defineNuxtConfig({
     },
     baseURL: '/kansai08/',
   },
-  compatibilityDate: '2025-01-10',
 })
