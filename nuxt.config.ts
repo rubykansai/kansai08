@@ -45,7 +45,7 @@ export default defineNuxtConfig({
         { name: 'twitter:description', content: '関西Ruby会議は、関西で定期的に開催しているRubyプログラミング言語に関するカンファレンスです。Rubyに関する知見・技術を共有し、またRubyistの交流の場として、皆様に楽しんでいただけるカンファレンスを目指しています。' },
       ],
       link: [
-        // { rel: 'icon', type: 'image/x-icon', href: '/kansai08/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/kansai08/favicon.ico' },
         {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap',
