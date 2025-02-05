@@ -102,15 +102,14 @@
 .v-application, .v-card {
   background-color: #700002 !important;
   position: relative;
-  z-index: 1;
+}
+
+.v-card {
+  background: transparent !important;
 }
 
 .v-row {
   margin: 0 !important;
-}
-
-.a-btn {
-  z-index: 20;
 }
 
 .a-register {
@@ -132,12 +131,11 @@
 .v-btn-register, .v-btn-cfs {
   min-width: 18rem;
   font-family: 'Kumbh Sans', serif;
-  z-index: 20;
 }
 
 .corner {
   position: absolute;
-  z-index: 10;
+  z-index: 0;
 }
 
 .left-top {
