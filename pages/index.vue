@@ -13,10 +13,10 @@
           :elevation="0"
         >
           <v-card-item class="justify-center">
-            <v-img src="/logo.svg" width="50vh" class="mb-10"/>
-            <div class="text-h5 title">
-              2025.6.28 <span class="text-h6 title">(Sat)</span>　
-              <a class="text-h6 title" href="https://www.kamogawa-odori.com/kaburenjou/">
+            <v-img src="/logo.svg" width="50vh" class="mb-16"/>
+            <div class="text-h4 title">
+              2025.6.28 <span class="text-h5 title mr-7">(Sat)</span>
+              <a class="text-h5 title" href="https://www.kamogawa-odori.com/kaburenjou/">
                 @先斗町歌舞練場
               </a>
             </div>
