@@ -36,7 +36,7 @@
               <a
                 href="https://ti.to/kansairubykaigi/08"
                 target="_blank"
-                class="mr-3"
+                class="mr-3 a-btn"
               >
                 <v-btn
                   size="x-large"
@@ -48,7 +48,7 @@
               <a
                 href="https://forms.gle/yxRKq3Bg1RUC8bocA"
                 target="_blank"
-                class="a-register"
+                class="a-register a-btn"
               >
                 <v-btn
                   size="x-large"
@@ -63,6 +63,7 @@
               <a
                 href="https://ti.to/kansairubykaigi/08"
                 target="_blank"
+                class="a-btn"
               >
                 <v-btn
                   size="x-large"
@@ -74,7 +75,7 @@
               <a
                 href="https://forms.gle/yxRKq3Bg1RUC8bocA"
                 target="_blank"
-                class="a-register"
+                class="a-register a-btn"
               >
                 <v-btn
                   size="x-large"
@@ -108,6 +109,10 @@
   margin: 0 !important;
 }
 
+.a-btn {
+  z-index: 20;
+}
+
 .a-register {
   text-decoration: none !important;
 }
@@ -127,6 +132,7 @@
 .v-btn-register, .v-btn-cfs {
   min-width: 18rem;
   font-family: 'Kumbh Sans', serif;
+  z-index: 20;
 }
 
 .corner {
