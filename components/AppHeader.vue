@@ -42,7 +42,6 @@ export default {
 
 .v-list-item, a {
   font-family: 'Kumbh Sans', serif;
-  text-decoration: none;
   color: #fff;
 }
 
