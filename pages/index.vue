@@ -59,7 +59,7 @@
                 >CALL FOR SPEAKERS</v-btn>
               </a>
             </div>
-            <div class="d-block d-sm-none">
+            <div class="justify-center d-block d-sm-none">
               <a
                 href="https://ti.to/kansairubykaigi/08"
                 target="_blank"
