@@ -33,7 +33,12 @@ export default {
 <style scoped>
 .v-toolbar {
   background: transparent !important;
-  border-bottom: #fff solid 1px !important;
+}
+
+@media screen and (min-width:600px) {
+  .v-toolbar {
+    border-bottom: #fff solid 1px !important;
+  }
 }
 
 .v-navigation-drawer {
