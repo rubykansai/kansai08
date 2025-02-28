@@ -25,6 +25,7 @@ export default {
     pages: [
       { title: 'HOME', to: '/' },
       { title: 'VENUE', to: 'https://www.kamogawa-odori.com/kaburenjou/' },
+      { title: 'POLICIES', to: '/policies' },
     ],
   }),
 }
