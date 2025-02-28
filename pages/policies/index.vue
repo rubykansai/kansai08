@@ -105,7 +105,6 @@
 <style>
 * {
   box-sizing: border-box;
-  font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
 }
 
 .v-application {
