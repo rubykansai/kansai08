@@ -20,7 +20,7 @@
         >
           <v-card-item class="justify-center">
             <v-img src="/logo.svg" width="50vh" class="mb-16 d-none d-sm-block"/>
-            <v-img src="/logo.svg" width="50vh" class="mb-8 d-block d-sm-none"/>
+            <v-img src="/logo.svg" width="40vh" class="mb-8 d-block d-sm-none"/>
             <div class="text-h4 title mb-6 d-none d-sm-block">
               2025.6.28 <span class="text-h5 title mr-7">(Sat)</span>
               <a class="text-h5 title" href="https://www.kamogawa-odori.com/kaburenjou/">
@@ -59,7 +59,20 @@
               <a
                 href="https://forms.gle/yxRKq3Bg1RUC8bocA"
                 target="_blank"
-                class="a-register a-btn"
+                class="mr-3 a-register a-btn"
+              >
+                <v-btn
+                  size="x-large"
+                  color="white"
+                  variant="outlined"
+                  rounded
+                  class="v-btn-cfs mr-3"
+                >CALL FOR SPEAKERS</v-btn>
+              </a>
+              <a
+                href="https://hackmd.io/@ydah/kanrk08-sponsor"
+                target="_blank"
+                class="a-btn a-register"
               >
                 <v-btn
                   size="x-large"
@@ -67,7 +80,7 @@
                   variant="outlined"
                   rounded
                   class="v-btn-cfs"
-                >CALL FOR SPEAKERS</v-btn>
+                >CALL FOR SPONSORS</v-btn>
               </a>
             </div>
             <div class="justify-center d-block d-sm-none">
@@ -80,7 +93,7 @@
                   size="x-large"
                   color="white"
                   rounded
-                  class="v-btn-register mb-5"
+                  class="v-btn-register mb-4"
                 >REGISTER NOW</v-btn>
               </a>
               <a
@@ -93,8 +106,21 @@
                   color="white"
                   variant="outlined"
                   rounded
-                  class="v-btn-cfs"
+                  class="v-btn-cfs mb-4"
                 >CALL FOR SPEAKERS</v-btn>
+              </a>
+              <a
+                href="https://hackmd.io/@ydah/kanrk08-sponsor"
+                target="_blank"
+                class="a-register a-btn"
+              >
+                <v-btn
+                  size="x-large"
+                  color="white"
+                  variant="outlined"
+                  rounded
+                  class="v-btn-cfs"
+                >CALL FOR SPONSORS</v-btn>
               </a>
             </div>
           </v-card-item>
