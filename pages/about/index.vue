@@ -48,8 +48,8 @@
                   v-for="(organizer, index) in organizers"
                   :key="index"
                   md="3"
-                  sm="3"
-                  xs="6"
+                  sm="4"
+                  xs="12"
                 >
                   <v-card
                     class="organizers"
@@ -59,24 +59,40 @@
                     <div class="py-2 px-2">
                       <v-img
                         :src="organizer.image"
-                        max-height="10rem"
-                        max-width="10rem"
+                        max-height="145px"
+                        max-width="145px"
                         rounded="circle"
                         cover
                       />
                       <v-card-title class="text-body-2">{{ organizer.name }}</v-card-title>
                       <v-card-subtitle class="text-body-2">{{ organizer.role }}</v-card-subtitle>
                       <div class="d-flex justify-center">
-                        <a :href="organizer.twitter" v-if="organizer.twitter"><v-btn
+                        <a :href="organizer.twitter" v-if="organizer.twitter">
+                          <v-btn
                           class="mx-2"
                           icon="mdi-twitter"
                           flat
-                        /></a>
+                        />
+                        </a>
+                        <v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                          v-if="!organizer.twitter"
+                          style="visibility: hidden;"
+                        />
                         <a :href="organizer.github" v-if="organizer.github"><v-btn
                           class="mx-2"
                           icon="mdi-github"
                           flat
                         /></a>
+                        <v-btn
+                          class="mx-2"
+                          icon="mdi-github"
+                          flat
+                          v-if="!organizer.github"
+                          style="visibility: hidden;"
+                        />
                       </div>
                     </div>
                   </v-card>
@@ -129,8 +145,8 @@
                 <v-col
                   v-for="(organizer, index) in organizers"
                   :key="index"
-                  md="3"
-                  sm="3"
+                  md="6"
+                  sm="6"
                   xs="12"
                 >
                   <v-card
@@ -141,8 +157,8 @@
                     <div class="py-2 px-2">
                       <v-img
                         :src="organizer.image"
-                        max-height="10rem"
-                        max-width="10rem"
+                        min-height="145px"
+                        min-width="145px"
                         rounded="circle"
                         cover
                       />
@@ -226,6 +242,12 @@ export default{
         image: 'https://secure.gravatar.com/avatar/f95dd1e4bb869baf82e1e622488ae30e',
       },
       {
+        name: 'spring_kuma',
+        twitter: 'https://twitter.com/spring_kuma',
+        role: 'Organizer',
+        image: 'https://avatars.githubusercontent.com/u/194263?v=4',
+      },
+      {
         name: 'pastak',
         twitter: 'https://twitter.com/pastak',
         github: 'https://github.com/pastak',
@@ -238,12 +260,6 @@ export default{
         github: 'https://github.com/youcune',
         role: 'Organizer',
         image: 'https://avatars.githubusercontent.com/u/2869221',
-      },
-      {
-        name: 'spring_kuma',
-        twitter: 'https://twitter.com/spring_kuma',
-        role: 'Organizer',
-        image: 'https://avatars.githubusercontent.com/u/194263?v=4',
       },
       {
         name: 'すぎうり',
