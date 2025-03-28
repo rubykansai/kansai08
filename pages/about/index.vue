@@ -49,7 +49,7 @@
                   :key="index"
                   md="3"
                   sm="3"
-                  xs="12"
+                  xs="6"
                 >
                   <v-card
                     class="organizers"
@@ -226,12 +226,6 @@ export default{
         image: 'https://secure.gravatar.com/avatar/f95dd1e4bb869baf82e1e622488ae30e',
       },
       {
-        name: 'spring_kuma',
-        twitter: 'https://twitter.com/spring_kuma',
-        role: 'Organizer',
-        image: 'https://avatars.githubusercontent.com/u/194263?v=4',
-      },
-      {
         name: 'pastak',
         twitter: 'https://twitter.com/pastak',
         github: 'https://github.com/pastak',
@@ -244,6 +238,12 @@ export default{
         github: 'https://github.com/youcune',
         role: 'Organizer',
         image: 'https://avatars.githubusercontent.com/u/2869221',
+      },
+      {
+        name: 'spring_kuma',
+        twitter: 'https://twitter.com/spring_kuma',
+        role: 'Organizer',
+        image: 'https://avatars.githubusercontent.com/u/194263?v=4',
       },
       {
         name: 'すぎうり',
