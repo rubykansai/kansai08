@@ -59,6 +59,11 @@ export default defineNuxtConfig({
           href: 'https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Zen+Old+Mincho&display=swap',
           crossorigin: '',
         },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap',
+          crossorigin: '',
+        },
       ],
       htmlAttrs: {
         lang: 'ja',

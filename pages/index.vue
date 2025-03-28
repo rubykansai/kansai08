@@ -1,6 +1,6 @@
 <template>
   <v-app class="fill-height">
-    <AppHeader />
+    <AppHeaderIndex />
     <v-row>
       <div class="d-none d-sm-block">
         <v-img src="/lbottom.png" width="20vw" class="corner left-bottom"/>
@@ -90,7 +90,7 @@
                 class="a-btn"
               >
                 <v-btn
-                  size="x-large"
+                  size="large"
                   color="white"
                   rounded
                   class="v-btn-register mb-4"
@@ -102,7 +102,7 @@
                 class="a-register a-btn"
               >
                 <v-btn
-                  size="x-large"
+                  size="large"
                   color="white"
                   variant="outlined"
                   rounded
@@ -115,7 +115,7 @@
                 class="a-register a-btn"
               >
                 <v-btn
-                  size="x-large"
+                  size="large"
                   color="white"
                   variant="outlined"
                   rounded

@@ -33,7 +33,7 @@ export default {
 
 <style scoped>
 .v-toolbar {
-  background-color: #700002 !important;
+  background: transparent !important;
 }
 
 @media screen and (min-width:600px) {
