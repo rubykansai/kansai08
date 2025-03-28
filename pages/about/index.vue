@@ -276,7 +276,7 @@ export default{
       {
         name: 'khori',
         role: 'Organizer',
-        image: '/organizers/khori.png',
+        image: '/khori.png',
       },
       {
         name: 'k-yoshida',
@@ -309,7 +309,7 @@ export default{
       {
         name: 'reina',
         role: 'Designer',
-        image: '/organizers/reina.png',
+        image: '/reina.png',
       },
     ],
   }),
