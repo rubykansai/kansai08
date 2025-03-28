@@ -1,6 +1,9 @@
 <template>
   <div>
     <v-app-bar :elevation="0">
+      <div align="left" class="ml-10">
+        <v-img src="/logo-nav.svg" :width="150" :height="40" class="d-none d-sm-block" />
+      </div>
       <v-app-bar-nav-icon class="d-flex d-sm-none" variant="text" @click.stop="drawer = !drawer" />
       <template #append>
         <NuxtLink v-for="(page, index) in pages" :key="index" class="d-none d-sm-block" :to="page.to">
@@ -25,6 +28,7 @@ export default {
     pages: [
       { title: 'HOME', to: '/' },
       { title: 'VENUE', to: 'https://www.kamogawa-odori.com/kaburenjou/' },
+      { title: 'ABOUT', to: '/about' },
       { title: 'POLICIES', to: '/policies' },
     ],
   }),
