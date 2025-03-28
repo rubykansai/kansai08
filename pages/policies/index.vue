@@ -217,6 +217,7 @@
             </div>
           </v-card-item>
         </v-card>
+        <Footer />
       </v-col>
     </v-row>
   </v-app>
