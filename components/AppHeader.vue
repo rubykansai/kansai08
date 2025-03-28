@@ -2,7 +2,9 @@
   <div>
     <v-app-bar :elevation="0">
       <div align="left" class="ml-10">
-        <v-img src="/logo-nav.svg" :width="150" :height="40" class="d-none d-sm-block" />
+        <NuxtLink to="/" >
+          <v-img src="/logo-nav.svg" :width="150" :height="40" class="d-none d-sm-block" />
+        </NuxtLink>
       </div>
       <v-app-bar-nav-icon class="d-flex d-sm-none" variant="text" @click.stop="drawer = !drawer" />
       <template #append>
