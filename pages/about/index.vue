@@ -275,6 +275,7 @@ export default{
       },
       {
         name: 'khori',
+        twitter: 'https://twitter.com/khoriosk',
         role: 'Organizer',
         image: '/kansai08/khori.png',
       },
