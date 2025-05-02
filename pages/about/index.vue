@@ -324,9 +324,21 @@ export default{
         image: 'https://avatars.githubusercontent.com/u/67820904',
       },
       {
+        name: 'たろサ',
+        twitter: 'https://twitter.com/momoonga',
+        github: 'https://github.com/tarosay',
+        role: 'Organizer',
+        image: 'https://avatars.githubusercontent.com/u/1458076',
+      },
+      {
         name: 'reina',
         role: 'Designer',
         image: '/kansai08/reina.png',
+      },
+      {
+        name: 'Momoka',
+        role: 'Designer',
+        image: '/kansai08/momoka.jpg',
       },
     ],
   }),
