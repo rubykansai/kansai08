@@ -331,6 +331,13 @@ export default{
         image: 'https://avatars.githubusercontent.com/u/1458076',
       },
       {
+        name: 'sanfrecce-osaka',
+        twitter: 'https://twitter.com/sanfrecce_osaka',
+        github: 'https://github.com/sanfrecce-osaka',
+        role: 'Organizer',
+        image: 'https://avatars.githubusercontent.com/u/7955461',
+      },
+      {
         name: 'reina',
         role: 'Designer',
         image: '/kansai08/reina.png',
