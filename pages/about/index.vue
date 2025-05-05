@@ -331,7 +331,7 @@ export default{
         image: 'https://avatars.githubusercontent.com/u/1458076',
       },
       {
-        name: 'sanfrecce-osaka',
+        name: 'sanfrecce_osaka',
         twitter: 'https://twitter.com/sanfrecce_osaka',
         github: 'https://github.com/sanfrecce-osaka',
         role: 'Organizer',
