@@ -57,7 +57,7 @@
                 >REGISTER NOW</v-btn>
               </a>
               <a
-                href="https://forms.gle/yxRKq3Bg1RUC8bocA"
+                href="https://ruby-tuesday.doorkeeper.jp/events/183977"
                 target="_blank"
                 class="mr-3 a-register a-btn"
               >
@@ -67,7 +67,7 @@
                   variant="outlined"
                   rounded
                   class="v-btn-cfs mr-3"
-                >CALL FOR SPEAKERS</v-btn>
+                >Official Party</v-btn>
               </a>
               <a
                 href="https://hackmd.io/@ydah/kanrk08-sponsor"
