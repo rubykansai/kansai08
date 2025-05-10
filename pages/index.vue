@@ -67,7 +67,7 @@
                   variant="outlined"
                   rounded
                   class="v-btn-cfs mr-3"
-                >Official Party</v-btn>
+                >OFFICIAL PARTY</v-btn>
               </a>
               <a
                 href="https://hackmd.io/@ydah/kanrk08-sponsor"
