@@ -340,6 +340,7 @@ export default{
       {
         name: '温井直輝',
         twitter: 'https://twitter.com/Kinukui2003',
+        github: 'https://github.com/nnnnnnnnnke',
         role: 'NOC member',
         image: '/kansai08/Kinukui2003.png',
       },
