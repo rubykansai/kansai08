@@ -198,7 +198,7 @@ export default{
         name: 'ydah',
         twitter: 'https://twitter.com/ydah_',
         github: 'https://github.com/ydah',
-        role: 'Chief Organizer',
+        role: 'Chief Organizer & Designer',
         image: 'https://avatars.githubusercontent.com/u/13041216',
       },
       {
@@ -233,7 +233,7 @@ export default{
         name: 'むらじゅん',
         twitter: 'https://twitter.com/murajun1978',
         github: 'https://github.com/murajun1978',
-        role: 'Organizer',
+        role: 'Organizer & NOC member',
         image: 'https://avatars.githubusercontent.com/u/911903',
       },
       {
@@ -265,7 +265,7 @@ export default{
         name: 'すぎうり',
         twitter: 'https://twitter.com/uproad3',
         github: 'https://github.com/uproad',
-        role: 'Organizer',
+        role: 'Organizer & NOC member',
         image: 'https://avatars.githubusercontent.com/u/7349115',
       },
       {
@@ -336,6 +336,12 @@ export default{
         github: 'https://github.com/sanfrecce-osaka',
         role: 'Organizer',
         image: 'https://avatars.githubusercontent.com/u/7955461',
+      },
+      {
+        name: '温井直輝',
+        twitter: 'https://twitter.com/Kinukui2003',
+        role: 'NOC member',
+        image: '/kansai08/Kinukui2003.png',
       },
       {
         name: 'reina',
