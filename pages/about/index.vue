@@ -230,13 +230,6 @@ export default{
         image: 'https://avatars.githubusercontent.com/u/203046',
       },
       {
-        name: 'むらじゅん',
-        twitter: 'https://twitter.com/murajun1978',
-        github: 'https://github.com/murajun1978',
-        role: 'Organizer & NOC member',
-        image: 'https://avatars.githubusercontent.com/u/911903',
-      },
-      {
         name: 'smantani',
         role: 'Organizer',
         image: 'https://secure.gravatar.com/avatar/f95dd1e4bb869baf82e1e622488ae30e',
@@ -260,13 +253,6 @@ export default{
         github: 'https://github.com/youcune',
         role: 'Organizer',
         image: 'https://avatars.githubusercontent.com/u/2869221',
-      },
-      {
-        name: 'すぎうり',
-        twitter: 'https://twitter.com/uproad3',
-        github: 'https://github.com/uproad',
-        role: 'Organizer & NOC member',
-        image: 'https://avatars.githubusercontent.com/u/7349115',
       },
       {
         name: 'honeniq',
@@ -336,6 +322,20 @@ export default{
         github: 'https://github.com/sanfrecce-osaka',
         role: 'Organizer',
         image: 'https://avatars.githubusercontent.com/u/7955461',
+      },
+      {
+        name: 'むらじゅん',
+        twitter: 'https://twitter.com/murajun1978',
+        github: 'https://github.com/murajun1978',
+        role: 'Organizer & NOC member',
+        image: 'https://avatars.githubusercontent.com/u/911903',
+      },
+      {
+        name: 'すぎうり',
+        twitter: 'https://twitter.com/uproad3',
+        github: 'https://github.com/uproad',
+        role: 'Organizer & NOC member',
+        image: 'https://avatars.githubusercontent.com/u/7349115',
       },
       {
         name: '温井直輝',
