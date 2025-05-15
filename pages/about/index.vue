@@ -40,8 +40,11 @@
                   </v-btn>
                 </div>
               </a>
-              <h4 align="center" class="text-h4 mb-10">
+              <h3 align="center" class="text-h3 mb-10">
                 TEAM
+              </h3>
+              <h4 align="center" class="text-h4 mb-10">
+                Organizers
               </h4>
               <v-row>
                 <v-col
@@ -49,7 +52,6 @@
                   :key="index"
                   md="3"
                   sm="4"
-                  xs="12"
                 >
                   <v-card
                     class="organizers"
@@ -98,6 +100,120 @@
                   </v-card>
                 </v-col>
               </v-row>
+              <h4 align="center" class="text-h4 mb-10">
+                Designers
+              </h4>
+              <v-row>
+                <v-col
+                  v-for="(designer, index) in designers"
+                  :key="index"
+                  md="3"
+                  sm="4"
+                >
+                  <v-card
+                    class="organizers"
+                    align="center"
+                    flat
+                  >
+                    <div class="py-2 px-2">
+                      <v-img
+                        :src="designer.image"
+                        max-height="145px"
+                        max-width="145px"
+                        rounded="circle"
+                        cover
+                      />
+                      <v-card-title class="text-body-2">{{ designer.name }}</v-card-title>
+                      <v-card-subtitle class="text-body-2">{{ designer.role }}</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a :href="designer.twitter" v-if="designer.twitter">
+                          <v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                        />
+                        </a>
+                        <v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                          v-if="!designer.twitter"
+                          style="visibility: hidden;"
+                        />
+                        <a :href="designer.github" v-if="designer.github"><v-btn
+                          class="mx-2"
+                          icon="mdi-github"
+                          flat
+                        /></a>
+                        <v-btn
+                          class="mx-2"
+                          icon="mdi-github"
+                          flat
+                          v-if="!designer.github"
+                          style="visibility: hidden;"
+                        />
+                      </div>
+                    </div>
+                  </v-card>
+                </v-col>
+              </v-row>
+              <h4 align="center" class="text-h4 mb-10">
+                Wi-Fi and Network Operations
+              </h4>
+              <v-row>
+                <v-col
+                  v-for="(noc, index) in nocMembers"
+                  :key="index"
+                  md="3"
+                  sm="4"
+                >
+                  <v-card
+                    class="organizers"
+                    align="center"
+                    flat
+                  >
+                    <div class="py-2 px-2">
+                      <v-img
+                        :src="noc.image"
+                        max-height="145px"
+                        max-width="145px"
+                        rounded="circle"
+                        cover
+                      />
+                      <v-card-title class="text-body-2">{{ noc.name }}</v-card-title>
+                      <v-card-subtitle class="text-body-2">{{ noc.role }}</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a :href="noc.twitter" v-if="noc.twitter">
+                          <v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                        />
+                        </a>
+                        <v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                          v-if="!noc.twitter"
+                          style="visibility: hidden;"
+                        />
+                        <a :href="noc.github" v-if="noc.github"><v-btn
+                          class="mx-2"
+                          icon="mdi-github"
+                          flat
+                        /></a>
+                        <v-btn
+                          class="mx-2"
+                          icon="mdi-github"
+                          flat
+                          v-if="!noc.github"
+                          style="visibility: hidden;"
+                        />
+                      </div>
+                    </div>
+                  </v-card>
+                </v-col>
+              </v-row>
             </div>
           </v-card-item>
         </v-card>
@@ -138,16 +254,17 @@
                   </v-btn>
                 </div>
               </a>
-              <h4 align="center" class="text-h4 mb-10">
+              <h3 align="center" class="text-h3 mb-10">
                 TEAM
+              </h3>
+              <h4 align="center" class="text-h4 mb-10">
+                Organizers
               </h4>
               <v-row>
                 <v-col
                   v-for="(organizer, index) in organizers"
                   :key="index"
-                  md="6"
-                  sm="6"
-                  xs="12"
+                  cols="6"
                 >
                   <v-card
                     class="organizers"
@@ -157,8 +274,8 @@
                     <div class="py-2 px-2">
                       <v-img
                         :src="organizer.image"
-                        min-height="145px"
-                        min-width="145px"
+                        max-height="145px"
+                        max-width="145px"
                         rounded="circle"
                         cover
                       />
@@ -171,6 +288,86 @@
                           flat
                         /></a>
                         <a :href="organizer.github" v-if="organizer.github"><v-btn
+                          class="mx-2"
+                          icon="mdi-github"
+                          flat
+                        /></a>
+                      </div>
+                    </div>
+                  </v-card>
+                </v-col>
+              </v-row>
+              <h4 align="center" class="text-h4 mb-10">
+                Designers
+              </h4>
+              <v-row>
+                <v-col
+                  v-for="(designer, index) in designers"
+                  :key="index"
+                  cols="6"
+                >
+                  <v-card
+                    class="organizers"
+                    align="center"
+                    flat
+                  >
+                    <div class="py-2 px-2">
+                      <v-img
+                        :src="designer.image"
+                        max-height="145px"
+                        max-width="145px"
+                        rounded="circle"
+                        cover
+                      />
+                      <v-card-title class="text-body-2">{{ designer.name }}</v-card-title>
+                      <v-card-subtitle class="text-body-2">{{ designer.role }}</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a :href="designer.twitter" v-if="designer.twitter"><v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                        /></a>
+                        <a :href="designer.github" v-if="designer.github"><v-btn
+                          class="mx-2"
+                          icon="mdi-github"
+                          flat
+                        /></a>
+                      </div>
+                    </div>
+                  </v-card>
+                </v-col>
+              </v-row>
+              <h4 align="center" class="text-h4 mb-10">
+                Wi-Fi and Network Operations
+              </h4>
+              <v-row>
+                <v-col
+                  v-for="(noc, index) in nocMembers"
+                  :key="index"
+                  cols="6"
+                >
+                  <v-card
+                    class="organizers"
+                    align="center"
+                    flat
+                  >
+                    <div class="py-2 px-2">
+                      <v-img
+                        :src="noc.image"
+                        max-height="145px"
+                        max-width="145px"
+                        rounded="circle"
+                        cover
+                      />
+                      <v-card-title class="text-body-2">{{ noc.name }}</v-card-title>
+                      <v-card-subtitle class="text-body-2">{{ noc.role }}</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a :href="noc.twitter" v-if="noc.twitter"><v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                        /></a>
+                        <a :href="noc.github" v-if="noc.github"><v-btn
                           class="mx-2"
                           icon="mdi-github"
                           flat
@@ -239,6 +436,20 @@ export default{
         twitter: 'https://twitter.com/spring_kuma',
         role: 'Organizer',
         image: 'https://avatars.githubusercontent.com/u/194263?v=4',
+      },
+      {
+        name: 'むらじゅん',
+        twitter: 'https://twitter.com/murajun1978',
+        github: 'https://github.com/murajun1978',
+        role: 'Organizer & NOC member',
+        image: 'https://avatars.githubusercontent.com/u/911903',
+      },
+      {
+        name: 'すぎうり',
+        twitter: 'https://twitter.com/uproad3',
+        github: 'https://github.com/uproad',
+        role: 'Organizer & NOC Lead',
+        image: 'https://avatars.githubusercontent.com/u/7349115',
       },
       {
         name: 'pastak',
@@ -323,27 +534,8 @@ export default{
         role: 'Organizer',
         image: 'https://avatars.githubusercontent.com/u/7955461',
       },
-      {
-        name: 'むらじゅん',
-        twitter: 'https://twitter.com/murajun1978',
-        github: 'https://github.com/murajun1978',
-        role: 'Organizer & NOC member',
-        image: 'https://avatars.githubusercontent.com/u/911903',
-      },
-      {
-        name: 'すぎうり',
-        twitter: 'https://twitter.com/uproad3',
-        github: 'https://github.com/uproad',
-        role: 'Organizer & NOC member',
-        image: 'https://avatars.githubusercontent.com/u/7349115',
-      },
-      {
-        name: '温井直輝',
-        twitter: 'https://twitter.com/Kinukui2003',
-        github: 'https://github.com/nnnnnnnnnke',
-        role: 'NOC member',
-        image: '/kansai08/Kinukui2003.png',
-      },
+    ],
+    designers: [
       {
         name: 'reina',
         role: 'Designer',
@@ -353,6 +545,36 @@ export default{
         name: 'Momoka',
         role: 'Designer',
         image: '/kansai08/momoka.jpg',
+      },
+      {
+        name: 'ydah',
+        twitter: 'https://twitter.com/ydah_',
+        github: 'https://github.com/ydah',
+        role: 'Chief Organizer & Designer',
+        image: 'https://avatars.githubusercontent.com/u/13041216',
+      },
+    ],
+    nocMembers: [
+      {
+        name: 'すぎうり',
+        twitter: 'https://twitter.com/uproad3',
+        github: 'https://github.com/uproad',
+        role: 'Organizer & NOC Lead',
+        image: 'https://avatars.githubusercontent.com/u/7349115',
+      },
+      {
+        name: 'むらじゅん',
+        twitter: 'https://twitter.com/murajun1978',
+        github: 'https://github.com/murajun1978',
+        role: 'Organizer & NOC member',
+        image: 'https://avatars.githubusercontent.com/u/911903',
+      },
+      {
+        name: '温井直輝',
+        twitter: 'https://twitter.com/Kinukui2003',
+        github: 'https://github.com/nnnnnnnnnke',
+        role: 'NOC member',
+        image: '/kansai08/Kinukui2003.png',
       },
     ],
   }),
@@ -389,7 +611,7 @@ export default{
   display: flex;
 }
 
-.text-h4 {
+.text-h3, .text-h4 {
   font-family: "Kumbh Sans";
   color: #700002;
   font-weight: 500;
