@@ -6,7 +6,7 @@
         <v-card
           max-width="90vw"
           min-width="90vw"
-          class="pt-10 pb-10 my-15 px-15 d-none d-sm-block"
+          class="pt-10 pb-10 my-15 px-15 d-none d-md-block"
           :elevation="0"
         >
           <v-card-item>
@@ -113,7 +113,7 @@
         <v-card
           max-width="90vw"
           min-width="90vw"
-          class="my-10 d-block d-sm-none"
+          class="my-10 d-block d-md-none"
           :elevation="0"
         >
           <v-card-item>

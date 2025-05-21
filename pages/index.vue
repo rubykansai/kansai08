@@ -2,13 +2,13 @@
   <v-app class="fill-height">
     <AppHeaderIndex />
     <v-row>
-      <div class="d-none d-sm-block">
+      <div class="d-none d-md-block">
         <v-img src="/lbottom.png" width="20vw" class="corner left-bottom"/>
         <v-img src="/ltop.png" width="45vw" class="corner left-top"/>
         <v-img src="/rbottom.png" width="10vw" class="corner right-bottom"/>
         <v-img src="/rtop.png" width="15vw" class="corner right-top"/>
       </div>
-      <div class="d-flex d-sm-none">
+      <div class="d-flex d-md-none">
         <v-img src="/lbottom-sm.png" width="60vw" class="corner left-bottom-sm"/>
         <v-img src="/ltop-sm.png" width="70vw" class="corner left-top-sm"/>
         <v-img src="/rbottom-sm.png" width="30vw" class="corner right-bottom-sm"/>
@@ -19,27 +19,27 @@
           :elevation="0"
         >
           <v-card-item class="justify-center">
-            <v-img src="/logo.svg" width="50vh" class="mb-16 d-none d-sm-block"/>
-            <v-img src="/logo.svg" width="40vh" class="mb-8 d-block d-sm-none"/>
-            <div class="text-h4 title mb-6 d-none d-sm-block">
+            <v-img src="/logo.svg" width="50vh" class="mb-16 d-none d-md-block"/>
+            <v-img src="/logo.svg" width="40vh" class="mb-8 d-block d-md-none"/>
+            <div class="text-h4 title mb-6 d-none d-md-block">
               2025.6.28 <span class="text-h5 title mr-7">(Sat)</span>
               <a class="text-h5 title" href="https://www.kamogawa-odori.com/kaburenjou/">
                 @先斗町歌舞練場
               </a>
             </div>
-            <div class="text-h4 title mb-8 d-block d-sm-none">
+            <div class="text-h4 title mb-8 d-block d-md-none">
               2025.6.28 <span class="text-h5 title">(Sat)</span>
               <a class="text-h5 title d-block mt-3" href="https://www.kamogawa-odori.com/kaburenjou/">
                 @先斗町歌舞練場
               </a>
             </div>
-            <div class="text-h5 keynotes mb-16 d-none d-sm-block">
+            <div class="text-h5 keynotes mb-16 d-none d-md-block">
               KEYNOTE SPEAKERS:<span class="text-h5 keynotes speakers ml-3">Koji Shimba (@shimbaco) / Masataka Kuwabara (@pocke)</span>
             </div>
-            <div class="text-h5 keynotes d-block d-sm-none mb-3">
+            <div class="text-h5 keynotes d-block d-md-none mb-3">
               KEYNOTE SPEAKERS:
             </div>
-            <div class="text-h5 keynotes speakers mb-8 d-block d-sm-none">
+            <div class="text-h5 keynotes speakers mb-8 d-block d-md-none">
               Koji Shimba (@shimbaco)<br/>
               Masataka Kuwabara (@pocke)
             </div>
@@ -83,7 +83,7 @@
                 >CALL FOR SPONSORS</v-btn>
               </a>
             </div>
-            <div class="justify-center d-block d-sm-none">
+            <div class="justify-center d-block d-md-none">
               <a
                 href="https://ti.to/kansairubykaigi/08"
                 target="_blank"
