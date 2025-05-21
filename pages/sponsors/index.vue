@@ -164,22 +164,40 @@ export default {
     ],
     take: [
       {
+        name: '株式会社アジャイルウェア',
+        url: 'https://agileware.jp/',
+        description: 'アジャイルウェアは『Feel Goodな明日を作る』をミッションに、ウェルビーイング経営を推進中。主力事業は導入企業7000社を突破したプロジェクト管理ツール「Lychee Redmine」。2025年4月より「自宅より居心地の良いオフィス」をコンセプトにWELL-BEING OFFICEが誕生。オフィス見学ツアー受付中！',
+        image: '/sponsors/agileware.png',
+      },
+      {
+        name: '株式会社永和システムマネジメント',
+        url: 'https://esm.co.jp/',
+        description: '永和システムマネジメントにはアジャイルな開発を20年続けて培った、実践知、価値観、そしてそれを届ける人がいます。私たちは情熱をもって Ruby を使ってアジャイルにお客さまに価値を届けます。 また、コミュニティ活動への参加も積極的に行っており、OSS へのコントリビューション、登壇、イベントスタッフ、スポンサーなど様々な形で関わっています。',
+        image: '/sponsors/esm.png',
+      },
+      {
+        name: '株式会社インゲージ',
+        url: 'https://ingage.co.jp/',
+        description: 'インゲージは、「ひとり一人に向き合うをカタチにする」をミッションに顧客対応クラウド『Re:lation（リレーション）』を開発・提供しています。2014年の創業以来「使って楽しい」「導入して良かった」を感じていただけるサービスの提供を第一に、日々開発を進めています。『Re:lation』は、リリース11年で導入社数は5,000社を超え、企業の業務効率化・可視化を実現し、人材教育にも貢献しています。',
+        image: '/sponsors/ingage.png',
+      },
+      {
+        name: '株式会社マネーフォワード',
+        url: 'https://corp.moneyforward.com/',
+        description: '「お金を前へ。人生をもっと前へ。」をミッションに、お金の見える化サービス『マネーフォワード ME』やバックオフィスSaaS『マネーフォワード クラウド』などを提供しています。大阪・京都開発拠点では、拠点コンセプト"Give it a try!"のもと複数のプロダクトを開発しています。失敗を恐れず最初の一歩を踏み出す文化で、関西から新しい価値の創造に挑戦しています。',
+        image: '/sponsors/moneyforward.png',
+      },
+      {
         name: 'ポノス株式会社',
         url: 'https://www.ponos.jp/',
-        description: 'ポノスは、1990年の創業以来ゲームを通してエンターテインメントという文化の発展に貢献してまいりました。【求められるモノは創らない、それ以上を創り出す。】を掲げ、自分たちしか創れない価値をプラスしていくことを大切にしています。現在は、オリジナルゲーム開発を核に事業を展開し、代表タイトル『にゃんこ大戦争』は、累計DL9,400万を（2024年7月現在）超え、多くのお客様に楽しんでいただいております。',
-        image: 'sponsors/ponos.png',
+        description: 'ポノスは、1990年の創業以来ゲームを通してエンターテインメントという文化の発展に貢献してまいりました。【求められるモノは創らない、それ以上を創り出す。】を掲げ、自分たちしか創れない価値をプラスしていくことを大切にしています。現在は、オリジナルゲーム開発を核に事業を展開し、代表タイトル『にゃんこ大戦争』は、累計DL1億回（2025年2月現在）を超え、多くのお客様に楽しんでいただいております。',
+        image: '/sponsors/ponos.png',
       },
       {
         name: '株式会社Ruby開発',
         url: 'https://www.ruby-dev.jp/',
-        description: 'Ruby開発はRuby on Railsをコアとして、フロントの技術も積極的にとりいれたWebアプリケーション開発を得意としております。Rubyコミッタも2名在籍しており、Rubyコミュニティへの積極的な支援、Rubyエンジニアの育成にも積極的に取り組んでいます。',
-        image: 'sponsors/rubydevelopment.png',
-      },
-      {
-        name: '株式会社SmartHR',
-        url: 'https://hello-world.smarthr.co.jp/',
-        description: '「SmartHR」は、人事・労務の業務効率化と、データ活用によるタレントマネジメントや組織のパフォーマンス向上を実現するクラウド人事労務ソフトです。労働にまつわる社会課題をなくし、誰もがその人らしく働ける社会の実現を目指し、働くすべての人の生産性向上を後押しします。私たちは、歴史に残る模範的なソフトウェアをつくる仲間を探しています。フルリモート勤務可能！',
-        image: 'sponsors/smarthr.png',
+        description: '株式会社Ruby開発は、Rubyをコア技術としたWebサービス開発のプロフェッショナル集団です。 RubyCommitterが在籍し、高い技術力と豊富な開発実績を誇ります。私たちはAI技術を活用したWebサービス開発にも力を入れています。 AIとRubyを組み合わせることで、より高度で革新的なサービスを創造し、社会に貢献していくことを目指しています。',
+        image: '/sponsors/rubydevelopment.png',
       },
     ],
     ume: [
@@ -188,34 +206,6 @@ export default {
         url: 'https://engineer.andpad.co.jp/',
         description: 'ANDPADはクラウド型建設プロジェクト管理プラットフォームで、現場効率化から業務改善まで一元管理できます。20万2000社以上、51万人の毎日の業務を支え、DX化を進めています。そして多くのプロダクトでRuby/Railsを使用し、Ruby/Railsが建築・建設業界のDXを支えているとも言えます。アンドパッドではRuby/Railsを駆使し、ユーザーの体験に活かせるRubyistを歓迎します。',
         image: 'sponsors/andpad.png',
-      },
-    ],
-    novelties: [
-      {
-        name: 'BouqueTec 株式会社',
-        url: 'https://www.instagram.com/bouquetec_com/',
-        description: 'ブーケテックはものづくりを通じて学びや楽しむことを応援します。オープンソースソフトウェア（OSS）の開発を支援しています。',
-        image: 'sponsors/bouquetec.png',
-      },
-    ],
-    communities: [
-      {
-        name: '日本Rubyの会',
-        url: 'https://ruby-no-kai.org/',
-        description: ' Rubyの利用者の支援 Ruby(+Rubyのライブラリ)開発者の支援を目的とした一般社団法人です。現在は、ドキュメントの整備や、イベントへの参加協力等を中心に活動しています。',
-        image: 'sponsors/rubynokai.png',
-      },
-      {
-        name: 'Kyobashi.rb',
-        url: 'https://kyobashirb.connpass.com/',
-        description: 'Kyobashi.rb は京橋周辺の Rubyist が集まって Ruby や技術の話をするコミュニティです。京橋周辺としていますが、京橋に職場や居住地がない人も大歓迎です！月一程度で ShortTalk(10min) 大会や、懇親🍶🍻をしています。',
-        image: 'sponsors/kyobashirb.png',
-      },
-      {
-        name: 'Ruby関西',
-        url: 'https://rubykansai.doorkeeper.jp/',
-        description: 'Ruby関西はRuby関西勉強会や関西Ruby會議、Rails勉強会＠関西など、関西でのRubyに関するイベントの主体となるコミュニティです。',
-        image: 'sponsors/rubykansai.png',
       },
     ],
   }),
