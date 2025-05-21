@@ -118,6 +118,58 @@
                 </v-row>
                 <v-divider class="mt-10"></v-divider>
               </v-card>
+              <h2 align="center" class="text-h4 title mb-2">
+                Ume Sponsor
+              </h2>
+              <v-card
+                v-for="(content, index) in ume"
+                :key="index"
+                class="py-10 px-10"
+                :elevation="0"
+              >
+                <v-row>
+                  <v-col
+                    lg="3"
+                    md="12"
+                    sm="12"
+                    xs="12"
+                    class="justify-center"
+                    align="center"
+                  >
+                    <a
+                      :href="content.url"
+                      target="_blank"
+                    >
+                      <v-img
+                        class="link"
+                        :src="content.image"
+                        max-height="300px"
+                        max-width="300px"
+                      />
+                    </a>
+                  </v-col>
+                  <v-col>
+                    <p>
+                      <a
+                        class="text-link text-h5 mb-2 name"
+                        :href="content.url"
+                        target="_blank"
+                      >{{ content.name }}</a>
+                    </p>
+                    <p>
+                      <a
+                        class="text-link text-caption"
+                        :href="content.url"
+                        target="_blank"
+                      >{{ content.url }}</a>
+                    </p>
+                    <p class="text-body-1 mt-5">
+                      {{ content.description }}
+                    </p>
+                  </v-col>
+                </v-row>
+                <v-divider class="mt-10"></v-divider>
+              </v-card>
             </div>
           </v-card-item>
         </v-card>
@@ -202,10 +254,52 @@ export default {
     ],
     ume: [
       {
-        name: '株式会社アンドパッド',
-        url: 'https://engineer.andpad.co.jp/',
-        description: 'ANDPADはクラウド型建設プロジェクト管理プラットフォームで、現場効率化から業務改善まで一元管理できます。20万2000社以上、51万人の毎日の業務を支え、DX化を進めています。そして多くのプロダクトでRuby/Railsを使用し、Ruby/Railsが建築・建設業界のDXを支えているとも言えます。アンドパッドではRuby/Railsを駆使し、ユーザーの体験に活かせるRubyistを歓迎します。',
-        image: 'sponsors/andpad.png',
+        name: 'エースチャイルド株式会社',
+        url: 'https://www.as-child.com/',
+        description: 'エースチャイルドは子ども達を守るために、子ども達が安心安全に育つことができる社会を実現するために、ITのチカラで明るい未来を作る会社です。 社員全員フルリモートで働いています。',
+        image: '/kansai08/sponsors/aschild.png',
+      },
+      {
+        name: 'localtech',
+        url: 'https://localtech.jp/',
+        description: '「#local_tech」は、local（誰かにとっての特別な場所・地域）に根付いて活躍している国内外のTech Company・Engineer・Product Manager・Product Designer等、Tech領域で活躍する全ての人にスポットライトを当てるメディアです。',
+        image: '/kansai08/sponsors/localtech.png',
+      },
+      {
+        name: '株式会社ロッカ',
+        url: 'https://lokka.jp/',
+        description: 'フィヨルドブートキャンプは、未経験から現場の即戦力を目指せるスクールです。現役エンジニア指導のもと、実践的なチームでの開発やポートフォリオ制作、仲間との交流を通じて学び続ける力が身につきます。',
+        image: '/kansai08/sponsors/lokka.png',
+      },
+      {
+        name: '株式会社mov',
+        url: 'https://mov.am/',
+        description: 'mov は、「日本のポテンシャルを最大化する」を使命として掲げインバウンド事業、店舗支援事業の2事業を展開しています。 Rubyを軸にした高水準のプロダクトで、着実かつ加速度的な成長を遂げています。',
+        image: '/kansai08/sponsors/mov.png',
+      },
+      {
+        name: '株式会社ネットワーク応用通信研究所',
+        url: 'https://www.netlab.jp/',
+        description: 'ネットワーク応用通信研究所(NaCl)はまつもとゆきひろさんと共に、2001年からお客様のためにRubyアプリケーションを開発してきました。NaClにはRubyが好きなメンバーが集まっています。',
+        image: '/kansai08/sponsors/nacl.png',
+      },
+      {
+        name: '東京Ruby会議12 実行委員一同',
+        url: 'https://regional.rubykaigi.org/tokyo12/',
+        description: '東京Ruby会議12はRubyを使ったソフトウェア開発について議論し、また東京圏のRubyコミュニティ同士の交流の場をめざした地域Ruby会議です。2025年1月に開催されました。',
+        image: '/kansai08/sponsors/tokyorubykaigi.png',
+      },
+      {
+        name: '株式会社ザルファ',
+        url: 'https://xalpha.jp/',
+        description: '「カケルアルファの創造力」をコンセプトに、オーダーメイドシステム開発の他、フォームサービスSSGform、留学生寮管理システムDormfor、TA勤怠管理システムKinmuuを運営しています。',
+        image: '/kansai08/sponsors/xalpha.png',
+      },
+      {
+        name: '合同会社ユーキューブ',
+        url: 'https://localtech.jp/',
+        description: 'Rubyでさまざまな課題を解決する神戸の会社です。Railsアプリケーション開発支援・WordPress保守・Webサーバー管理・中小企業の技術サポートなどをやっています。',
+        image: '/kansai08/sponsors/youcube.png',
       },
     ],
   }),
