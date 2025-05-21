@@ -1,0 +1,1 @@
+import{_ as o,c as s,o as t,a as n}from"./DaCNLyWe.js";const c={},r={align:"center",class:"mb-3"};function _(a,e){return t(),s("div",r,e[0]||(e[0]=[n("p",null,"関西Ruby会議08 ©2025",-1),n("p",null,"Designed by reina",-1)]))}const i=o(c,[["render",_]]);export{i as _};
