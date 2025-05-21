@@ -1,0 +1,288 @@
+<template>
+  <v-app class="fill-height">
+    <AppHeader />
+    <v-row>
+      <v-col align="center" class="pb-0 mt-12">
+        <v-card
+          max-width="70vw"
+          min-width="70vw"
+          class="mt-12"
+          :elevation="0"
+        >
+          <v-card-item>
+            <h1 class="text-h4 title align-center mb-10">
+              <span><v-img src="/dot.png" :width="20" class="mr-2"/></span> SPONSORS
+            </h1>
+            <div align="left">
+              <h2 align="center" class="text-h4 title mb-2">
+                Matz Sponsor
+              </h2>
+              <v-card
+                v-for="(content, index) in matz"
+                :key="index"
+                class="py-10 px-10"
+                :elevation="0"
+              >
+                <v-row>
+                  <v-col
+                    lg="3"
+                    md="12"
+                    sm="12"
+                    xs="12"
+                    class="justify-center"
+                    align="center"
+                  >
+                    <a
+                      :href="content.url"
+                      target="_blank"
+                    >
+                      <v-img
+                        class="link"
+                        :src="content.image"
+                        max-height="300px"
+                        max-width="300px"
+                      />
+                    </a>
+                  </v-col>
+                  <v-col>
+                    <p>
+                      <a
+                        class="text-link text-h5 mb-2 name"
+                        :href="content.url"
+                        target="_blank"
+                      >{{ content.name }}</a>
+                    </p>
+                    <p>
+                      <a
+                        class="text-link text-caption"
+                        :href="content.url"
+                        target="_blank"
+                      >{{ content.url }}</a>
+                    </p>
+                    <p class="text-body-1 mt-5">
+                      {{ content.description }}
+                    </p>
+                  </v-col>
+                </v-row>
+                <v-divider class="mt-10"></v-divider>
+              </v-card>
+              <h2 align="center" class="text-h4 title mb-2">
+                Take Sponsor
+              </h2>
+              <v-card
+                v-for="(content, index) in take"
+                :key="index"
+                class="py-10 px-10"
+                :elevation="0"
+              >
+                <v-row>
+                  <v-col
+                    lg="3"
+                    md="12"
+                    sm="12"
+                    xs="12"
+                    class="justify-center"
+                    align="center"
+                  >
+                    <a
+                      :href="content.url"
+                      target="_blank"
+                    >
+                      <v-img
+                        class="link"
+                        :src="content.image"
+                        max-height="300px"
+                        max-width="300px"
+                      />
+                    </a>
+                  </v-col>
+                  <v-col>
+                    <p>
+                      <a
+                        class="text-link text-h5 mb-2 name"
+                        :href="content.url"
+                        target="_blank"
+                      >{{ content.name }}</a>
+                    </p>
+                    <p>
+                      <a
+                        class="text-link text-caption"
+                        :href="content.url"
+                        target="_blank"
+                      >{{ content.url }}</a>
+                    </p>
+                    <p class="text-body-1 mt-5">
+                      {{ content.description }}
+                    </p>
+                  </v-col>
+                </v-row>
+                <v-divider class="mt-10"></v-divider>
+              </v-card>
+            </div>
+          </v-card-item>
+        </v-card>
+        <Footer />
+      </v-col>
+    </v-row>
+  </v-app>
+</template>
+
+<script>
+export default {
+  data: () => ({
+    matz: [
+      {
+        name: '株式会社SmartHR',
+        url: 'https://smarthr.co.jp/',
+        description: '私達は「well-working 労働にまつわる社会課題をなくし、誰もがその人らしく働ける社会をつくる。」をミッションに掲げ、クラウド人事労務ソフト「SmartHR」を提供しています。採用管理の情報から内定者の雇用契約や入社手続き、年末調整などの多様な労務手続きをペーパーレス化し、データとして蓄積。さらに、溜まった従業員データを活用した「人事評価」「従業員サーベイ」「配置シミュレーション」「スキル管理」などのタレントマネジメント機能により、組織の活性化や組織変革を推進し生産性向上を支援しています。アプリストアサービス「SmartHR Plus」は勤怠や給与などのサービスと連携できるアプリケーションを展開し、個社ごとのカスタマイズ性を高め、正確性や安全性の高いデータ連携を実現しています。SmartHRは、企業の生産性向上を後押しし、すべての人が働きやすい環境づくりに貢献します。',
+        image: '/sponsors/smarthr.png',
+      },
+      {
+        name: 'Tebiki株式会社',
+        url: 'https://tebiki.co.jp/',
+        description: 'Tebiki株式会社では、「現場の未来を切り拓く」をミッションに、動画教育システム『tebiki現場教育』と電子帳票システム『tebiki現場分析』を開発しています。現場での動画撮影から作業データの分析までを一気通貫で支援し、現場DXを推進しています。AIを活用した動画生成、リアルタイム画像解析、IoT連携、ペタバイト規模のビッグデータ可視化など、解くべき技術課題は山積みです。Goをはじめとするマイクロサービスアーキテクチャなどで動画処理基盤やアナリティクス基盤の大規模スケールに挑戦し、高速な開発サイクルでプロダクトを磨き込む仲間を募集しています。',
+        image: '/sponsors/tebiki.png',
+      },
+      {
+        name: '株式会社タイミー',
+        url: 'https://corp.timee.co.jp/',
+        description: '当社は「『はたらく』を通じて人生の可能性を広げるインフラをつくる」をミッションに掲げ、スキマバイトアプリ「タイミー」などの事業を展開しております。私たちは「タイミー」を通じて人々の働き方を根底から変え、従来のアルバイトや派遣業界が抱えていた課題を解決し、一人一人が好きな時に働き、様々な仕事を経験することで人生の可能性を広げ、自分の時間をより豊かにできる世界を目指します。サービスリリースから約6年経過した現在、・ワーカー数　1,000万人・導入事業者数　159,000企業・導入事業所数　335,000拠点　※いずれも2024年12月時点を突破しました。今後は、スポットワークをさらに世の中に広げることで国内の労働市場における課題を解決することを主軸としつつ、「はたらく」に留まらない多様なアプローチで、「一人ひとりの時間を豊かに」する挑戦を続けていきます。',
+        image: '/sponsors/timee.png',
+      },
+      {
+        name: 'フリー株式会社',
+        url: 'https://www.freee.co.jp',
+        description: 'freeeは「スモールビジネスを、世界の主役に。」というミッションのもと、だれもが自由に経営できる統合型経営プラットフォームを実現します。freee会計、freee人事労務、freee販売などあらゆる業務の課題を解決するプロダクトを展開し、個人事業主から上場企業まで幅広くご利用いただいています。日本発のSaaS型クラウドサービスとして、パートナーや金融機関とともに「マジ価値」を提供し続けます。「働きがいのある会社」ベストカンパニートップ10に８年連続でランクイン。ダイバーシティ&インクルージョンにも取り組み、誰もが自然体で働ける環境を目指します。',
+        image: '/sponsors/freee.png',
+      },
+      {
+        name: '株式会社ナレッジラボ',
+        url: 'https://knowledgelabo.com/',
+        description: 'ナレッジラボは経営管理SaaS「Manageboard」をRuby on RailsやReact.jsを用いて自社開発している、大阪に本社を置く会社です。コンサルティングを祖業とし、SaaS×コンサルティングで横断的に経営DXを支援しています。',
+        image: '/sponsors/knowledgelabo.png',
+      },
+    ],
+    take: [
+      {
+        name: 'ポノス株式会社',
+        url: 'https://www.ponos.jp/',
+        description: 'ポノスは、1990年の創業以来ゲームを通してエンターテインメントという文化の発展に貢献してまいりました。【求められるモノは創らない、それ以上を創り出す。】を掲げ、自分たちしか創れない価値をプラスしていくことを大切にしています。現在は、オリジナルゲーム開発を核に事業を展開し、代表タイトル『にゃんこ大戦争』は、累計DL9,400万を（2024年7月現在）超え、多くのお客様に楽しんでいただいております。',
+        image: 'sponsors/ponos.png',
+      },
+      {
+        name: '株式会社Ruby開発',
+        url: 'https://www.ruby-dev.jp/',
+        description: 'Ruby開発はRuby on Railsをコアとして、フロントの技術も積極的にとりいれたWebアプリケーション開発を得意としております。Rubyコミッタも2名在籍しており、Rubyコミュニティへの積極的な支援、Rubyエンジニアの育成にも積極的に取り組んでいます。',
+        image: 'sponsors/rubydevelopment.png',
+      },
+      {
+        name: '株式会社SmartHR',
+        url: 'https://hello-world.smarthr.co.jp/',
+        description: '「SmartHR」は、人事・労務の業務効率化と、データ活用によるタレントマネジメントや組織のパフォーマンス向上を実現するクラウド人事労務ソフトです。労働にまつわる社会課題をなくし、誰もがその人らしく働ける社会の実現を目指し、働くすべての人の生産性向上を後押しします。私たちは、歴史に残る模範的なソフトウェアをつくる仲間を探しています。フルリモート勤務可能！',
+        image: 'sponsors/smarthr.png',
+      },
+    ],
+    ume: [
+      {
+        name: '株式会社アンドパッド',
+        url: 'https://engineer.andpad.co.jp/',
+        description: 'ANDPADはクラウド型建設プロジェクト管理プラットフォームで、現場効率化から業務改善まで一元管理できます。20万2000社以上、51万人の毎日の業務を支え、DX化を進めています。そして多くのプロダクトでRuby/Railsを使用し、Ruby/Railsが建築・建設業界のDXを支えているとも言えます。アンドパッドではRuby/Railsを駆使し、ユーザーの体験に活かせるRubyistを歓迎します。',
+        image: 'sponsors/andpad.png',
+      },
+    ],
+    novelties: [
+      {
+        name: 'BouqueTec 株式会社',
+        url: 'https://www.instagram.com/bouquetec_com/',
+        description: 'ブーケテックはものづくりを通じて学びや楽しむことを応援します。オープンソースソフトウェア（OSS）の開発を支援しています。',
+        image: 'sponsors/bouquetec.png',
+      },
+    ],
+    communities: [
+      {
+        name: '日本Rubyの会',
+        url: 'https://ruby-no-kai.org/',
+        description: ' Rubyの利用者の支援 Ruby(+Rubyのライブラリ)開発者の支援を目的とした一般社団法人です。現在は、ドキュメントの整備や、イベントへの参加協力等を中心に活動しています。',
+        image: 'sponsors/rubynokai.png',
+      },
+      {
+        name: 'Kyobashi.rb',
+        url: 'https://kyobashirb.connpass.com/',
+        description: 'Kyobashi.rb は京橋周辺の Rubyist が集まって Ruby や技術の話をするコミュニティです。京橋周辺としていますが、京橋に職場や居住地がない人も大歓迎です！月一程度で ShortTalk(10min) 大会や、懇親🍶🍻をしています。',
+        image: 'sponsors/kyobashirb.png',
+      },
+      {
+        name: 'Ruby関西',
+        url: 'https://rubykansai.doorkeeper.jp/',
+        description: 'Ruby関西はRuby関西勉強会や関西Ruby會議、Rails勉強会＠関西など、関西でのRubyに関するイベントの主体となるコミュニティです。',
+        image: 'sponsors/rubykansai.png',
+      },
+    ],
+  }),
+}
+</script>
+
+<style scoped>
+* {
+  font-family: 'Noto Sans JP';
+  box-sizing: border-box;
+}
+
+.v-application {
+  color: #700002;
+  position: relative;
+}
+
+.name {
+  color: #222222 !important;
+}
+
+.text-link {
+  color: #222222;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: #700002;
+  text-decoration: underline;
+  box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
+}
+
+@media (max-width: 600px) {
+.v-col {
+    flex-basis: inherit !important;
+  }
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  font-weight: 400;
+  display: flex;
+}
+
+.text-h4 {
+  color: #700002;
+  font-weight: 500;
+}
+
+.text-h5 {
+  color: #700002;
+  font-weight: 600;
+}
+
+.text-h6 {
+  color: #700002;
+}
+
+.text-body-1 {
+  line-height: 1.7;
+  font-family: "Noto Sans JP";
+}
+</style>
