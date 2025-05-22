@@ -28,7 +28,7 @@
                   class="px-3 py-3"
                   align="center"
                   variant="outlined"
-                  min-height="25rem"
+                  min-height="400px"
                 >
                   <div class="py-2 px-2">
                     <v-img
@@ -158,6 +158,7 @@
                     </div>
                   </div>
                 </v-card>
+                <v-divider class="mx-2" color="#700002"></v-divider>
               </v-col>
             </v-row>
 
@@ -205,13 +206,13 @@
                       </p>
                     </div>
                   </div>
+                  <v-divider class="mx-2" color="#700002"></v-divider>
                 </v-card>
               </v-col>
             </v-row>
           </v-card-item>
         </v-card>
-        <FooterWave />
-        <FooterBlock />
+        <Footer />
       </v-col>
     </v-row>
   </v-app>
@@ -219,18 +220,10 @@
 
 <script>
 export default {
-  setup() {
-    const generateImgPath = (fileName) => {
-      return new URL(`../../public/${fileName}`, import.meta.url).href
-    }
-    return {
-      generateImgPath,
-    }
-  },
   data: () => ({
     keyspeakers: [
       {
-        name: 'Shimba, Koji',
+        name: 'Koji Shimba (@shimbaco)',
         twitter: 'https://twitter.com/shimbaco',
         github: 'https://github.com/shimbaco',
         description: '仕事ではRuby on Railsを使用したWebアプリケーション開発に携わっています。休日もRailsを使って個人開発をしており、現在はアニメ視聴記録サービスやマイクロブログサービス、Wikiアプリを作っています。新規サービスのHTMLなどのソースを見てどんな技術を使っているか想像するのが好きです。',
