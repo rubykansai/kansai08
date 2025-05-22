@@ -230,7 +230,7 @@ export default {
         image: 'https://avatars.githubusercontent.com/u/56767',
       },
       {
-        name: 'Masataka Kuwabara',
+        name: 'Masataka Kuwabara (@pocke)',
         twitter: 'https://twitter.com/p_ck_',
         github: 'https://github.com/pocke',
         description: 'A maintainer of RBS, a Ruby committer.',
