@@ -249,7 +249,7 @@ export default {
         name: 'bash',
         twitter: 'https://twitter.com/bash0C7',
         github: 'https://github.com/bash0C7',
-        description: '#RubyMuscleMixin トレーニーRubyMuscleMixinとは、RubyMusicMixinから着想を得た活動です。筋肉を身につけるアクティビティーを行うRubyistとこれからRubyistになる可能性のある人たちの活動です',
+        description: '#rubymusclemixin トレーニー。日本Ruby会議2009-2011実行委員、東京Ruby会議10実行委員長、RubyWorld Conference2014スピーカーなどを務める。業務ではピクシブ株式会社でプロダクト開発ギルド長としてプロダクトマネージャー、デザイナー、エンジニアの職能別強化組織、コミュニティーと社内をつなぐDeveloper Relations、開発サイクル改善のCoEをとりまとめて、総合的な開発力強化に取り組んでいる。',
         image: 'https://avatars.githubusercontent.com/u/137741',
       },
       {
