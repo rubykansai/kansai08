@@ -256,7 +256,7 @@ export default {
         name: '影山勝彦',
         twitter: 'https://twitter.com/kishima',
         github: 'https://github.com/kishima',
-        description: '（株）アプトポッドで、IoT、Robotics関連のソフトウェア開発およびインテグレーション業務に従事しています。',
+        description: '@kishimaとして活動しているmruby好きな組み込みソフト系エンジニアです。普段は（株）アプトポッドで、IoT、Robotics関連のソフトウェア開発やインテグレーション業務に携わってます。',
         image: 'https://avatars.githubusercontent.com/u/291438',
       },
       {
