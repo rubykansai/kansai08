@@ -284,7 +284,7 @@ export default {
         name: 'Akira Yagi',
         twitter: 'https://twitter.com/w_e_b_coffee',
         github: 'https://github.com/akira888',
-        description: '元コーヒー屋さん系Rubyist。株式会社万葉でエンジニアをやっています。WEB記事でつぶやきprocessingの作品に出会い、衝撃を受けてからCreative Coding世界の住人に憧れています。p5.rbのおかげで初processingすることができてからはWASMやOpalにも興味が湧いています。',
+        description: '元コーヒー屋さん系Rubyist。株式会社万葉でエンジニアをやっています。WEB記事でprocessingの作品に出会い衝撃を受けてから Creative Coding の世界の住人に憧れています。p5.rbやOpal、WASMなどに興味があります。',
         image: 'https://avatars.githubusercontent.com/u/1274183',
       },
     ],
