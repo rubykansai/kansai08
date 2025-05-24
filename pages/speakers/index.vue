@@ -277,7 +277,7 @@ export default {
         name: '桐生あんず(kiryuanzu)',
         twitter: 'https://twitter.com/anzu_mmm',
         github: 'https://github.com/Kiryuanzu',
-        description: '神奈川県の三浦半島に住んでいるエンジニアです。今年の1月から東京 Ruby会議12 のセッション「Regional.rb and the Tokyo Metropolis」がきっかけで三浦半島.rb を立ち上げました。https://kiryuanzu.hatenablog.com/entry/2025/01/23/224006',
+        description: '神奈川県の三浦半島に住んでいるエンジニアです。東京Ruby会議12をきっかけに今年の1月から三浦半島.rb を立ち上げました。ひとりポッドキャスト「桐生あんず電波局」をやっています。',
         image: 'https://avatars.githubusercontent.com/u/23164048',
       },
       {
