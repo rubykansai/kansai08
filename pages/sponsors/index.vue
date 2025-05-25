@@ -266,6 +266,12 @@ export default {
         image: '/kansai08/sponsors/aschild.png',
       },
       {
+        name: '株式会社コードタクト',
+        url: 'https://codetakt.com/',
+        description: 'コードタクトでは『「学び」を革新し、誰もが自由に生きる世界を創る』をミッションに、テクノロジーによる教育の変革を目指しています。Quineだけじゃなく製品にもRubyを使っています。',
+        image: '/kansai08/sponsors/codetakt.png',
+      },
+      {
         name: '株式会社Gaji-Labo',
         url: 'https://www.gaji.jp/',
         description: 'Gaji-Labo は事業会社やスタートアップのプロダクト成長を支援する会社です。UIデザインからプロダクト開発まで一貫してプロダクトの価値を最大限に引き出し、チームワークでお客さまを支援します。',
