@@ -1,9 +1,9 @@
 <template>
   <div>
     <v-app-bar :elevation="0">
-      <v-app-bar-nav-icon class="d-flex d-sm-none" variant="text" @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon class="d-flex d-md-none" variant="text" @click.stop="drawer = !drawer" />
       <template #append>
-        <NuxtLink v-for="(page, index) in pages" :key="index" class="d-none d-sm-block" :to="page.to">
+        <NuxtLink v-for="(page, index) in pages" :key="index" class="d-none d-md-block" :to="page.to">
           <v-btn>{{ page.title }}</v-btn>
         </NuxtLink>
       </template>
@@ -24,9 +24,11 @@ export default {
     drawer: false,
     pages: [
       { title: 'HOME', to: '/' },
+      { title: 'SPEAKERS', to: '/speakers' },
+      { title: 'SPONSORS', to: '/sponsors' },
       { title: 'VENUE', to: 'https://www.kamogawa-odori.com/kaburenjou/' },
-      { title: 'ABOUT', to: '/about' },
       { title: 'POLICIES', to: '/policies' },
+      { title: 'ABOUT', to: '/about' },
       { title: 'GOODIES', to: 'https://suzuri.jp/kyobashirb' },
     ],
   }),
