@@ -57,19 +57,6 @@
                 >REGISTER NOW</v-btn>
               </a>
               <a
-                href="https://ruby-tuesday.doorkeeper.jp/events/183977"
-                target="_blank"
-                class="mr-3 a-register a-btn"
-              >
-                <v-btn
-                  size="x-large"
-                  color="white"
-                  variant="outlined"
-                  rounded
-                  class="v-btn-cfs mr-3"
-                >OFFICIAL PARTY</v-btn>
-              </a>
-              <a
                 href="https://hackmd.io/@ydah/kanrk08-sponsor"
                 target="_blank"
                 class="a-btn a-register"
@@ -95,19 +82,6 @@
                   rounded
                   class="v-btn-register mb-4"
                 >REGISTER NOW</v-btn>
-              </a>
-              <a
-                href="https://ruby-tuesday.doorkeeper.jp/events/183977"
-                target="_blank"
-                class="a-register a-btn"
-              >
-                <v-btn
-                  size="large"
-                  color="white"
-                  variant="outlined"
-                  rounded
-                  class="v-btn-cfs mb-4"
-                >OFFICIAL PARTY</v-btn>
               </a>
               <a
                 href="https://hackmd.io/@ydah/kanrk08-sponsor"

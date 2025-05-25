@@ -23,8 +23,8 @@ export default {
   data: () => ({
     drawer: false,
     pages: [
-      { title: 'HOME', to: '/' },
       { title: 'SPEAKERS', to: '/speakers' },
+      { title: 'EVENTS', to: '/events' },
       { title: 'SPONSORS', to: '/sponsors' },
       { title: 'VENUE', to: 'https://www.kamogawa-odori.com/kaburenjou/' },
       { title: 'POLICIES', to: '/policies' },
