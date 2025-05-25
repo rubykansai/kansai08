@@ -222,6 +222,12 @@ export default {
         image: '/kansai08/sponsors/agileware.png',
       },
       {
+        name: '株式会社Degica',
+        url: 'https://ja.komoju.com/company/',
+        description: 'Degica Inc. is a fast-growing FinTech company offering KOMOJU, a trusted payment gateway used by Steam. With no upfront fees, it supports global businesses entering Japan.',
+        image: '/kansai08/sponsors/degica.png',
+      },
+      {
         name: '株式会社永和システムマネジメント',
         url: 'https://esm.co.jp/',
         description: '永和システムマネジメントにはアジャイルな開発を20年続けて培った、実践知、価値観、そしてそれを届ける人がいます。私たちは情熱をもって Ruby を使ってアジャイルにお客さまに価値を届けます。 また、コミュニティ活動への参加も積極的に行っており、OSS へのコントリビューション、登壇、イベントスタッフ、スポンサーなど様々な形で関わっています。',
