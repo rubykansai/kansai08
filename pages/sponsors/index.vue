@@ -303,7 +303,7 @@ export default {
       },
       {
         name: '合同会社ユーキューブ',
-        url: 'https://localtech.jp/',
+        url: 'https://youcube.jp/',
         description: 'Rubyでさまざまな課題を解決する神戸の会社です。Railsアプリケーション開発支援・WordPress保守・Webサーバー管理・中小企業の技術サポートなどをやっています。',
         image: '/kansai08/sponsors/youcube.png',
       },
