@@ -270,7 +270,7 @@ export default {
         name: 'yumu',
         twitter: 'https://twitter.com/myumura3',
         github: 'https://github.com/myumura',
-        description: 'GMOペパボ株式会社でシニアエンジニアをしています。Shoryukenを推している人です。',
+        description: 'GMOペパボ株式会社でエンジニアをしています。エンジニアになってからずっとRubyist。Shoryukenを推しています。',
         image: 'https://avatars.githubusercontent.com/u/72910412',
       },
       {
