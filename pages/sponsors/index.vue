@@ -266,6 +266,12 @@ export default {
         image: '/kansai08/sponsors/aschild.png',
       },
       {
+        name: '株式会社Gaji-Labo',
+        url: 'https://www.gaji.jp/',
+        description: 'Gaji-Labo は事業会社やスタートアップのプロダクト成長を支援する会社です。UIデザインからプロダクト開発まで一貫してプロダクトの価値を最大限に引き出し、チームワークでお客さまを支援します。',
+        image: '/kansai08/sponsors/gajilabo.png',
+      },
+      {
         name: 'localtech',
         url: 'https://localtech.jp/',
         description: '「#local_tech」は、local（誰かにとっての特別な場所・地域）に根付いて活躍している国内外のTech Company・Engineer・Product Manager・Product Designer等、Tech領域で活躍する全ての人にスポットライトを当てるメディアです。',
