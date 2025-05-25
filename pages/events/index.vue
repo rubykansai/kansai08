@@ -167,6 +167,12 @@
   </v-app>
 </template>
 
+<script setup>
+useSeoMeta({
+  title: 'Events - 関西Ruby会議08'
+})
+</script>
+
 <script>
 export default {
   data: () => ({

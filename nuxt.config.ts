@@ -35,7 +35,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: '関西Ruby会議08',
+      title: '関西Ruby会議08 - 関西Ruby会議08',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

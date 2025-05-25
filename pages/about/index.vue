@@ -588,6 +588,11 @@ export default{
 }
 </script>
 
+<script setup>
+useSeoMeta({
+  title: 'About - 関西Ruby会議08'
+})
+</script>
 
 <style scoped>
 * {

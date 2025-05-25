@@ -223,6 +223,12 @@
   </v-app>
 </template>
 
+<script setup>
+useSeoMeta({
+  title: 'Policies - 関西Ruby会議08'
+})
+</script>
+
 <style scoped>
 * {
   font-family: 'Noto Sans JP';
