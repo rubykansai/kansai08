@@ -284,8 +284,8 @@ export default {
         image: '/kansai08/sponsors/gajilabo.png',
       },
       {
-        name: 'localtech',
-        url: 'https://localtech.jp/',
+        name: '#local_tech',
+        url: 'https://localtechjp.notion.site',
         description: '「#local_tech」は、local（誰かにとっての特別な場所・地域）に根付いて活躍している国内外のTech Company・Engineer・Product Manager・Product Designer等、Tech領域で活躍する全ての人にスポットライトを当てるメディアです。',
         image: '/kansai08/sponsors/localtech.png',
       },
