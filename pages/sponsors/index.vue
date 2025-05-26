@@ -4,9 +4,7 @@
     <v-row>
       <v-col align="center" class="pb-0 mt-12">
         <v-card
-          max-width="70vw"
-          min-width="70vw"
-          class="mt-12"
+          class="mt-12 sponsors-card"
           :elevation="0"
         >
           <v-card-item>
@@ -334,6 +332,14 @@ export default {
 * {
   font-family: 'Noto Sans JP';
   box-sizing: border-box;
+}
+
+.sponsors-card {
+  max-width: 70vw;
+
+  @media (max-width: 1280px) {
+    max-width: 90vw;
+  }
 }
 
 .v-application {
