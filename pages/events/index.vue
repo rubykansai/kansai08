@@ -4,9 +4,7 @@
     <v-row>
       <v-col align="center" class="pb-0 mt-12">
         <v-card
-          max-width="70vw"
-          min-width="70vw"
-          class="mt-12"
+          class="mt-12 events-card"
           :elevation="0"
         >
           <v-card-item>
@@ -64,7 +62,6 @@
                         class="link"
                         :src="content.image"
                         max-height="600px"
-                        max-width="600px"
                       />
                     </a>
                   </v-col>
@@ -115,7 +112,6 @@
                         class="link"
                         :src="content.image"
                         max-height="600px"
-                        max-width="600px"
                       />
                     </a>
                   </v-col>
@@ -151,7 +147,6 @@
                         class="link"
                         :src="content.image"
                         max-height="600px"
-                        max-width="600px"
                       />
                     </a>
                   </v-col>
@@ -221,6 +216,14 @@ export default {
 * {
   font-family: 'Noto Sans JP';
   box-sizing: border-box;
+}
+
+.events-card {
+  max-width: 70vw;
+
+  @media (max-width: 1280px) {
+    max-width: 100vw;
+  }
 }
 
 .v-application {
