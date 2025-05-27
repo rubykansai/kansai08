@@ -61,7 +61,7 @@
               </v-col>
             </v-row>
 
-            <h4 align="center" class="text-h5 mb-2">
+            <h4 align="center" class="text-h5 mb-10">
               SPEAKERS
             </h4>
             <v-row>
@@ -211,7 +211,7 @@
               </v-col>
             </v-row>
 
-            <h4 align="center" class="text-h5 mb-2">
+            <h4 align="center" class="text-h5 mb-10">
               SPEAKERS
             </h4>
             <v-row>
