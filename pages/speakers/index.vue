@@ -109,6 +109,55 @@
                 </v-card>
               </v-col>
             </v-row>
+
+            <h4 align="center" class="text-h5 mb-2">
+              PRE-PARTY SPEAKERS
+            </h4>
+            <v-row>
+              <v-col
+                v-for="(speaker, index) in prespeakers"
+                :key="index"
+                lg="4"
+                md="6"
+                sm="12"
+                xs="12"
+              >
+                <v-card
+                  align="center"
+                  variant="outlined"
+                  min-height="530px"
+                  class="px-3 py-3"
+                >
+                  <div class="py-2 px-2">
+                    <v-img
+                      :src="speaker.image"
+                      max-height="10rem"
+                      max-width="10rem"
+                      class="speakers"
+                      cover
+                    />
+                    <v-card-title>{{ speaker.name }}</v-card-title>
+                    <div class="d-flex justify-center">
+                      <a :href="speaker.twitter"><v-btn
+                        class="mx-2"
+                        icon="mdi-twitter"
+                        flat
+                      /></a>
+                      <a :href="speaker.github"><v-btn
+                        class="mx-2"
+                        icon="mdi-github"
+                        flat
+                      /></a>
+                    </div>
+                    <div align="left">
+                      <p class="text-body-2 mt-5">
+                        {{ speaker.description }}
+                      </p>
+                    </div>
+                  </div>
+                </v-card>
+              </v-col>
+            </v-row>
           </v-card-item>
           <v-card-item class="d-flex d-md-none">
             <h4 class="text-h4 title align-center mb-10">
@@ -168,6 +217,55 @@
             <v-row>
               <v-col
                 v-for="(speaker, index) in speakers"
+                :key="index"
+                lg="4"
+                md="6"
+                sm="12"
+                xs="12"
+              >
+                <v-card
+                  align="center"
+                  class="px-5 py-3"
+                  flat
+                >
+                  <div class="py-2 px-2">
+                    <v-img
+                      :src="speaker.image"
+                      max-height="10rem"
+                      max-width="10rem"
+                      class="speakers"
+                      cover
+                    />
+                    <v-card-title>{{ speaker.name }}</v-card-title>
+                    <div class="d-flex justify-center">
+                      <a :href="speaker.twitter"><v-btn
+                        class="mx-2"
+                        icon="mdi-twitter"
+                        flat
+                      /></a>
+                      <a :href="speaker.github"><v-btn
+                        class="mx-2"
+                        icon="mdi-github"
+                        flat
+                      /></a>
+                    </div>
+                    <div align="left">
+                      <p class="text-body-2 mt-5">
+                        {{ speaker.description }}
+                      </p>
+                    </div>
+                  </div>
+                  <v-divider class="mx-2" color="#700002"></v-divider>
+                </v-card>
+              </v-col>
+            </v-row>
+
+            <h4 align="center" class="text-h5 mb-2">
+              PRE-PARTY SPEAKERS
+            </h4>
+            <v-row>
+              <v-col
+                v-for="(speaker, index) in prespeakers"
                 :key="index"
                 lg="4"
                 md="6"
@@ -295,6 +393,36 @@ export default {
         github: 'https://github.com/akira888',
         description: '元コーヒー屋さん系Rubyist。株式会社万葉でエンジニアをやっています。WEB記事でprocessingの作品に出会い衝撃を受けてから Creative Coding の世界の住人に憧れています。p5.rbやOpal、WASMなどに興味があります。',
         image: 'https://avatars.githubusercontent.com/u/1274183',
+      },
+    ],
+    prespeakers: [
+      {
+        name: 'Miyuki Koshiba',
+        twitter: 'https://twitter.com/chobishiba',
+        github: 'https://github.com/ksbmyk',
+        description: 'Rubyist & Creative coder 株式会社スマートバンク ソフトウェアエンジニア',
+        image: 'https://avatars.githubusercontent.com/u/1327211',
+      },
+      {
+        name: 'joker1007',
+        twitter: 'https://twitter.com/joker1007',
+        github: 'https://github.com/joker1007',
+        description: 'Repro株式会社 執行役員チーフアーキテクト。Reproにおける中心となる技術基盤の設計・構築・運用、中長期的な技術選定、チームを跨いだ設計レビューとアドバイスなどを行っている。業務や趣味でそれなりの数のRubyGemを作ってきた。パーフェクトRuby、及びパーフェクトRails著者陣の一人。',
+        image: 'https://avatars.githubusercontent.com/u/116996',
+      },
+      {
+        name: 'lni_T / ルニ',
+        twitter: 'https://twitter.com/lni_T',
+        github: 'https://github.com/lnit',
+        description: 'メドピア株式会社に勤めるサーバーサイドエンジニアで、自社開発サービスのリードエンジニアを担っています。普段はRailsやHotwireと格闘する日々を過ごしていますが、時折ruby.wasmの力を借り、Rubyの新たな使い道を開拓して楽しんでいます。',
+        image: 'https://avatars.githubusercontent.com/u/6626484',
+      },
+      {
+        name: 'クドウマサヤ',
+        twitter: 'https://twitter.com/masaya_dev',
+        github: 'https://github.com/msykd',
+        description: '2009年に日本電子専門学校を卒業後、Webエンジニアとしてキャリアをスタート。0→1フェーズの新規開発を得意とし、スタートアップの立ち上げやフリーランスとしても数々のプロダクト開発を経験。Ruby、PHP、Perl、Go、Python、JavaScript(TypeScript)、C#など、多様な言語・フレームワークでの実務経験を持つ。株式会社iCARE CTO。',
+        image: 'https://avatars.githubusercontent.com/u/7447363',
       },
     ],
   }),
