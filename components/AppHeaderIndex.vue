@@ -26,6 +26,7 @@ export default {
       { title: 'SPEAKERS', to: '/speakers' },
       { title: 'EVENTS', to: '/events' },
       { title: 'SPONSORS', to: '/sponsors' },
+      { title: 'JOB BOARD', to: '/jobs' },
       { title: 'VENUE', to: 'https://www.kamogawa-odori.com/kaburenjou/' },
       { title: 'POLICIES', to: '/policies' },
       { title: 'ABOUT', to: '/about' },
