@@ -123,7 +123,7 @@ export default {
       {
         name: 'ポノス株式会社',
         url: 'https://www.ponos.jp/recruit/mid/Recruitment/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/',
-        description: '12年以上運営中の代表タイトル「にゃんこ大戦争」は、累計1億DLを突破！',
+        description: '12年以上運営中の代表タイトル「にゃんこ大戦争」は、累計1億DLを突破！モバイルゲームのサーバー開発に参画いただける仲間を募集中です！',
         image: '/kansai08/sponsors/ponos.png',
       },
       {
@@ -137,6 +137,18 @@ export default {
         url: 'https://www.as-child.com/recruit/',
         description: '「子どもの未来を明るく」社会に貢献するRailsプロダクトを、主体的に挑戦・成長できる環境で共につくりませんか？',
         image: '/kansai08/sponsors/aschild.png',
+      },
+      {
+        name: '株式会社コードタクト',
+        url: 'https://open.talentio.com/r/1/c/codetakt/pages/21167',
+        description: 'あなたの技術で公教育に革新を！フルリモートRubysitを募集',
+        image: '/kansai08/sponsors/codetakt.png',
+      },
+      {
+        name: '株式会社Gaji-Labo',
+        url: 'https://www.gaji.jp/recruit',
+        description: '「すべての人々にとって選択の自由があることが当たり前な世界をつくる」スタートアップや事業会社のプロダクト成長を支援する一人目バックエンドエンジニア募集！',
+        image: '/kansai08/sponsors/gajilabo.png',
       },
       {
         name: '株式会社mov',
