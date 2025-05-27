@@ -64,7 +64,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Job board - 関西Ruby会議08'
+  title: 'Job board - 関西Ruby会議08',
+  ogTitle: 'Job board - 関西Ruby会議08',
+  description: '関西Ruby会議08のスポンサー企業様の求人情報を掲載しています。',
+  ogDescription: '関西Ruby会議08のスポンサー企業様の求人情報を掲載しています。',
 })
 </script>
 

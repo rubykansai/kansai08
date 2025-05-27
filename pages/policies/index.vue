@@ -225,7 +225,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Policies - 関西Ruby会議08'
+  title: 'Policies - 関西Ruby会議08',
+  ogTitle: 'Policies - 関西Ruby会議08',
+  description: '関西Ruby会議08のアンチハラスメントポリシーです。',
+  ogDescription: '関西Ruby会議08のアンチハラスメントポリシーです。',
 })
 </script>
 

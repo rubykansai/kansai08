@@ -220,7 +220,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Speakers - 関西Ruby会議08'
+  title: 'Speakers - 関西Ruby会議08',
+  ogTitle: 'Speakers - 関西Ruby会議08',
+  description: '関西Ruby会議08のスピーカー情報を掲載しています。',
+  ogDescription: '関西Ruby会議08のスピーカー情報を掲載しています。',
 })
 </script>
 

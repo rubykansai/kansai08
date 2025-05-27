@@ -590,7 +590,10 @@ export default{
 
 <script setup>
 useSeoMeta({
-  title: 'About - 関西Ruby会議08'
+  title: 'About - 関西Ruby会議08',
+  ogTitle: 'About - 関西Ruby会議08',
+  description: '関西Ruby会議の概要とチームメンバーを紹介します。',
+  ogDescription: '関西Ruby会議の概要とチームメンバーを紹介します。',
 })
 </script>
 

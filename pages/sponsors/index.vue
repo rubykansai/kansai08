@@ -186,7 +186,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Sponsors - 関西Ruby会議08'
+  title: 'Sponsors - 関西Ruby会議08',
+  ogTitle: 'Sponsors - 関西Ruby会議08',
+  description: '関西Ruby会議08のスポンサー情報を掲載しています。',
+  ogDescription: '関西Ruby会議08のスポンサー情報を掲載しています。',
 })
 </script>
 

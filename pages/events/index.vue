@@ -164,7 +164,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Events - 関西Ruby会議08'
+  title: 'Events - 関西Ruby会議08',
+  ogTitle: 'Events - 関西Ruby会議08',
+  description: '関西Ruby会議08のイベント情報を掲載しています。',
+  ogDescription: '関西Ruby会議08のイベント情報を掲載しています。',
 })
 </script>
 
