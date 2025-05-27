@@ -173,12 +173,6 @@ export default {
 }
 </script>
 
-<script setup>
-useSeoMeta({
-  title: 'Job Board - 関西Ruby会議08'
-})
-</script>
-
 <style scoped>
 * {
   font-family: 'Noto Sans JP';
