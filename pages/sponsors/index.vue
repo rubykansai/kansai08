@@ -312,6 +312,12 @@ export default {
         image: '/kansai08/sponsors/tokyorubykaigi.png',
       },
       {
+        name: '株式会社TwoGate',
+        url: 'https://twogate.com/',
+        description: 'TwoGateはライブエンタメ業界に多彩なサービスを開発提供し、推し活の愛のあるトラフィックをRubyで支えています。',
+        image: '/kansai08/sponsors/twogate.png',
+      },
+      {
         name: '株式会社ザルファ',
         url: 'https://xalpha.jp/',
         description: '「カケルアルファの創造力」をコンセプトに、オーダーメイドシステム開発の他、フォームサービスSSGform、留学生寮管理システムDormfor、TA勤怠管理システムKinmuuを運営しています。',
