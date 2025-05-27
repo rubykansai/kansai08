@@ -226,6 +226,12 @@ export default {
         image: '/kansai08/sponsors/agileware.png',
       },
       {
+        name: '株式会社アンドパッド',
+        url: 'https://engineer.andpad.co.jp/',
+        description: 'ANDPADはクラウド型建設プロジェクト管理プラットフォームで、現場効率化から業務改善まで一元管理できます。21万社、55万人の毎日の業務を支え、DX化を加速しています。そして多くのプロダクトでRuby/Railsを使用し、Ruby/Railsが建築・建設業界のDXを支えているとも言えます。アンドパッドではRuby/Railsの良さを駆使し、ユーザーの体験に活かせるRubyistを歓迎します。',
+        image: '/kansai08/sponsors/andpad.png',
+      },
+      {
         name: '株式会社Degica',
         url: 'https://ja.komoju.com/company/',
         description: 'Degica Inc. is a fast-growing FinTech company offering KOMOJU, a trusted payment gateway used by Steam. With no upfront fees, it supports global businesses entering Japan.',
