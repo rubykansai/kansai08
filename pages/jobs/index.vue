@@ -103,6 +103,12 @@ export default {
         image: '/kansai08/sponsors/agileware.png',
       },
       {
+        name: '株式会社アンドパッド',
+        url: 'https://hrmos.co/pages/andpad/jobs/1',
+        description: 'ANDPAD は建設業界の毎日を支えています ! 横断系の ydah から組込系の hasumikin 、コミッタの hsbt が一緒に働くほど広大な領域で Ruby を使ってみませんか?',
+        image: '/kansai08/sponsors/andpad.png',
+      },
+      {
         name: '株式会社永和システムマネジメント',
         url: 'https://agile.esm.co.jp/hire/carrier-recruitment.html',
         description: 'Rubyとアジャイルソフトウェア開発を通じてコミュニティと成長したいエンジニアを絶賛募集中！',
