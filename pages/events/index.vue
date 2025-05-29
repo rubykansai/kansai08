@@ -136,6 +136,22 @@
                         target="_blank"
                       >{{ content.name }}</a>
                     </p>
+                    <v-divider class="my-4"></v-divider>
+                    <p class="text-body1 mb-3"><v-icon icon="mdi-clock-time-two-outline"></v-icon> {{ content.time }}</p>
+                    <p class="text-body1 mb-3"><v-icon icon="mdi-currency-jpy"></v-icon> {{ content.price }}</p>
+                    <p class="text-body1 mb-5"><v-icon icon="mdi-map-marker-outline"></v-icon> {{ content.place }}</p>
+                    <a
+                    :href="content.url"
+                    target="_blank"
+                    >
+                      <v-btn
+                        size="large"
+                        color="#700002"
+                        rounded
+                        class="register-btn mb-5"
+                        v-if="content.url"
+                      >REGISTRATION</v-btn>
+                    </a>
                   </v-col>
                   <v-col
                   >
@@ -208,7 +224,19 @@ export default {
     ],
     day2: [
       {
-        name: 'Coming Soon 🚃!!!!',
+        name: 'Coming Soon !!!!',
+        time: 'June 29',
+        image: '/kansai08/events/comingsoon.png',
+        place: '🚃',
+        price: 'Free',
+      },
+      {
+        name: '関西Ruby会議08 非公式 打ち上げ!!!!!!',
+        url: 'https://connpass.com/event/357281',
+        image: '/kansai08/events/uchiage.png',
+        time: 'June 29, 15:00 - 18:00',
+        place: 'Beer Cafe 麦潤',
+        price: 'Cash on (調整中)',
       },
     ],
   }),
