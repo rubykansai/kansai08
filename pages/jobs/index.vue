@@ -112,6 +112,12 @@ export default {
         image: '/kansai08/sponsors/andpad.png',
       },
       {
+        name: '株式会社Degica',
+        url: 'https://apply.workable.com/degica-hiring/',
+        description: 'Ruby devs wanted! Join KOMOJU – global payments, remote work, real impact.',
+        image: '/kansai08/sponsors/degica.png',
+      },
+      {
         name: '株式会社永和システムマネジメント',
         url: 'https://agile.esm.co.jp/hire/carrier-recruitment.html',
         description: 'Rubyとアジャイルソフトウェア開発を通じてコミュニティと成長したいエンジニアを絶賛募集中！',
