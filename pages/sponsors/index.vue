@@ -278,6 +278,12 @@ export default {
         description: '株式会社Ruby開発は、Rubyをコア技術としたWebサービス開発のプロフェッショナル集団です。 RubyCommitterが在籍し、高い技術力と豊富な開発実績を誇ります。私たちはAI技術を活用したWebサービス開発にも力を入れています。 AIとRubyを組み合わせることで、より高度で革新的なサービスを創造し、社会に貢献していくことを目指しています。',
         image: '/kansai08/sponsors/rubydevelopment.png',
       },
+      {
+        name: '株式会社スタメン',
+        url: 'https://stmn.co.jp/',
+        description: '株式会社スタメン（stmn, inc.）は、「一人でも多くの人に、感動を届け、幸せを広める」という経営理念のもと、様々な事業を展開し、「人と組織の力」と「テクノロジーの可能性」の可能性を最大限に引き出す企業を目指しています。その祖業である従業員体験プラットフォーム「TUNAG」ではRuby最新版とそのエコシステムを活用して事業拡大とオープンソースコミュニティへの還元を両立しています。',
+        image: '/kansai08/sponsors/stmn.png',
+      },
     ],
     ume: [
       {

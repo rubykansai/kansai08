@@ -142,6 +142,12 @@ export default {
         image: '/kansai08/sponsors/ponos.png',
       },
       {
+        name: '株式会社スタメン',
+        url: 'https://herp.careers/v1/stmn/requisition-groups/8d5d0858-2bda-4167-80f2-2401d8fb1891',
+        description: 'RubyやRuby on Railsのスタッフソフトウェアエンジニア・チーフソフトウェアエンジニアを募集中（東京・名古屋の2拠点・週2日リモート）',
+        image: '/kansai08/sponsors/stmn.png',
+      },
+      {
         name: '株式会社Ruby開発',
         url: 'https://www.ruby-dev.jp/recruit_lp',
         description: 'RubyとAIで未来を切り拓く。挑戦者を募集中。私たちと一緒に、Ruby×AIで未来を創造しませんか？',
