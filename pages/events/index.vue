@@ -152,6 +152,12 @@
                         v-if="content.url"
                       >REGISTRATION</v-btn>
                     </a>
+                    <p class="text-body1 mb-2" v-if="content.sponsored">Sponsored and hosted by <a
+                        class="name"
+                        :href="content.sponsoredUrl"
+                        target="_blank"
+                      >{{ content.sponsored }}</a>
+                    </p>
                   </v-col>
                   <v-col
                   >
@@ -230,6 +236,8 @@ export default {
         time: 'June 29, 10:20 - 12:10',
         place: '叡山電車 出町柳駅',
         price: 'Free',
+        sponsored: '株式会社6VOX',
+        sponsoredUrl: 'https://6vox.com/',
       },
       {
         name: '関西Ruby会議08 非公式 打ち上げ!!!!!!',
