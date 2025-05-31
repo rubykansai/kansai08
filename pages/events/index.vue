@@ -224,10 +224,11 @@ export default {
     ],
     day2: [
       {
-        name: 'Coming Soon !!!!',
-        time: 'June 29',
-        image: '/kansai08/events/comingsoon.png',
-        place: '🚃',
+        name: '関西Ruby会議08 After Party: 叡電LT 🚃',
+        url: 'https://ruby-tuesday.doorkeeper.jp/events/185048',
+        image: '/kansai08/events/eidenlt.png',
+        time: 'June 29, 10:20 - 12:10',
+        place: '叡山電車 出町柳駅',
         price: 'Free',
       },
       {
