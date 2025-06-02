@@ -88,7 +88,7 @@
                     </p>
                     <v-divider class="my-4"></v-divider>
                     <p class="text-body1 mb-3"><v-icon icon="mdi-clock-time-two-outline"></v-icon> {{ content.time }}</p>
-                    <p class="text-body1 mb-3"><v-icon icon="mdi-currency-jpy"></v-icon> {{ content.price }}</p>
+                    <p class="text-body1 mb-3"><v-icon icon="mdi-currency-jpy" v-if="content.price"></v-icon> {{ content.price }}</p>
                     <p class="text-body1 mb-5"><v-icon icon="mdi-map-marker-outline"></v-icon> {{ content.place }}</p>
                     <a
                     :href="content.url"
@@ -99,6 +99,7 @@
                         color="#700002"
                         rounded
                         class="register-btn mb-5"
+                        v-if="content.url"
                       >REGISTRATION</v-btn>
                     </a>
                   </v-col>
@@ -219,6 +220,13 @@ export default {
       },
     ],
     day1: [
+      {
+        name: '@.bookstore at 関西Ruby会議08',
+        url: 'https://bs.atdot.net/kanrk08.html',
+        image: '/kansai08/events/bookstore.webp',
+        time: 'June 28',
+        place: '先斗町歌舞練場 受付付近',
+      },
       {
         name: '関西Ruby会議08 Official Party',
         url: 'https://ruby-tuesday.doorkeeper.jp/events/183977',
