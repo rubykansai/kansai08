@@ -100,7 +100,10 @@
                         rounded
                         class="register-btn mb-5"
                         v-if="content.url"
-                      >REGISTRATION</v-btn>
+                      >
+                        <div v-if="!content.detail">REGISTRATION</div>
+                        <div v-else>DETAILS</div>
+                      </v-btn>
                     </a>
                   </v-col>
                   <v-col
@@ -226,6 +229,7 @@ export default {
         image: '/kansai08/events/bookstore.webp',
         time: 'June 28',
         place: '先斗町歌舞練場 受付付近',
+        detail: true,
       },
       {
         name: '関西Ruby会議08 Official Party',
