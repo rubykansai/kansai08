@@ -4,8 +4,8 @@
     <v-row>
       <v-col align="center" class="pb-0 mt-12">
         <v-card
-          max-width="70vw"
-          min-width="70vw"
+          max-width="80vw"
+          min-width="80vw"
           class="mt-12"
           :elevation="0"
         >
@@ -30,6 +30,7 @@
                     class="job-card d-flex flex-column"
                     height="100%"
                     :elevation="0"
+                    variant="outlined"
                   >
                     <div class="flex-grow-1 d-flex flex-column">
                       <a
@@ -279,4 +280,11 @@ export default {
   width: 100%;
   padding: 16px;
 }
+
+.v-card--variant-outlined {
+  border-color: #700002 !important;
+  border-width: 1px !important;
+  border-radius: 10px !important;
+}
+
 </style>
