@@ -172,6 +172,12 @@ export default {
         image: '/kansai08/sponsors/gajilabo.png',
       },
       {
+        name: '株式会社はてな',
+        url: 'https://hatena.co.jp/recruit/engineer',
+        description: '株式会社はてなでは、技術によってインターネットと人々の生活を豊かにしたいエンジニアを募集しています。',
+        image: '/kansai08/sponsors/hatena.png',
+      },
+      {
         name: '株式会社mov',
         url: 'https://recruit.mov.am/',
         description: 'インバウンドの「ド」真ん中で活躍したい人、「日本のポテンシャルを最大化する」ことに興味ある人、ぜひお話しましょう！',
