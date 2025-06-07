@@ -255,6 +255,13 @@ export default {
         image: '/kansai08/sponsors/esm.png',
       },
       {
+        name: '株式会社はてな',
+        url: 'https://hatena.co.jp/',
+        description: 'はてなは2001年に京都で創業したWebサービス企業です。「はてなブログ」や「はてなブックマーク」などの個人ユーザー向けサービスに加え、企業向けにオブザーバビリティプラットフォームの「Mackerel」、「少年ジャンプ＋」などにも採用いただいているマンガビューワ「GigaViewer」（Web版/アプリ版）、企業と取り組むWeb・アプリの共同開発も多く手掛けています。',
+        image: '/kansai08/sponsors/hatena.png',
+        custom: 'Pre-party Sponsor',
+      },
+      {
         name: '株式会社インゲージ',
         url: 'https://ingage.co.jp/',
         description: 'インゲージは、「ひとり一人に向き合うをカタチにする」をミッションに顧客対応クラウド『Re:lation（リレーション）』を開発・提供しています。2014年の創業以来「使って楽しい」「導入して良かった」を感じていただけるサービスの提供を第一に、日々開発を進めています。『Re:lation』は、リリース11年で導入社数は5,000社を超え、企業の業務効率化・可視化を実現し、人材教育にも貢献しています。',
@@ -303,13 +310,6 @@ export default {
         url: 'https://www.gaji.jp/',
         description: 'Gaji-Labo は事業会社やスタートアップのプロダクト成長を支援する会社です。UIデザインからプロダクト開発まで一貫してプロダクトの価値を最大限に引き出し、チームワークでお客さまを支援します。',
         image: '/kansai08/sponsors/gajilabo.png',
-      },
-      {
-        name: '株式会社はてな',
-        url: 'https://hatena.co.jp/',
-        description: 'はてなは2001年に京都で創業したWebサービス企業です。「はてなブログ」や「はてなブックマーク」などの個人ユーザー向けサービスに加え、企業向けにオブザーバビリティプラットフォームの「Mackerel」、「少年ジャンプ＋」などにも採用いただいているマンガビューワ「GigaViewer」（Web版/アプリ版）、企業と取り組むWeb・アプリの共同開発も多く手掛けています。',
-        image: '/kansai08/sponsors/hatena.png',
-        custom: 'Pre-party Sponsor',
       },
       {
         name: '#local_tech',

@@ -124,6 +124,12 @@ export default {
         image: '/kansai08/sponsors/esm.png',
       },
       {
+        name: '株式会社はてな',
+        url: 'https://hatena.co.jp/recruit/engineer',
+        description: '株式会社はてなでは、技術によってインターネットと人々の生活を豊かにしたいエンジニアを募集しています。',
+        image: '/kansai08/sponsors/hatena.png',
+      },
+      {
         name: '株式会社インゲージ',
         url: 'https://mite.ingage.co.jp/join-us/',
         description: "[77,97,116,122,12364,25216,34899,39015,21839,12398,73,78,71,65,71,69].pack('U*')",
@@ -170,12 +176,6 @@ export default {
         url: 'https://www.gaji.jp/recruit',
         description: '「すべての人々にとって選択の自由があることが当たり前な世界をつくる」スタートアップや事業会社のプロダクト成長を支援する一人目バックエンドエンジニア募集！',
         image: '/kansai08/sponsors/gajilabo.png',
-      },
-      {
-        name: '株式会社はてな',
-        url: 'https://hatena.co.jp/recruit/engineer',
-        description: '株式会社はてなでは、技術によってインターネットと人々の生活を豊かにしたいエンジニアを募集しています。',
-        image: '/kansai08/sponsors/hatena.png',
       },
       {
         name: '株式会社mov',
