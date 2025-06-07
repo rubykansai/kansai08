@@ -446,7 +446,7 @@ export default {
 
 .v-card--variant-outlined {
   border-color: #700002 !important;
-  border-width: 2px !important;
+  border-width: 1px !important;
   border-radius: 10px !important;
 }
 
