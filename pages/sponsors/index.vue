@@ -305,6 +305,13 @@ export default {
         image: '/kansai08/sponsors/gajilabo.png',
       },
       {
+        name: '株式会社はてな',
+        url: 'https://hatena.co.jp/',
+        description: 'はてなは2001年に京都で創業したWebサービス企業です。「はてなブログ」や「はてなブックマーク」などの個人ユーザー向けサービスに加え、企業向けにオブザーバビリティプラットフォームの「Mackerel」、「少年ジャンプ＋」などにも採用いただいているマンガビューワ「GigaViewer」（Web版/アプリ版）、企業と取り組むWeb・アプリの共同開発も多く手掛けています。',
+        image: '/kansai08/sponsors/hatena.png',
+        custom: 'Pre-party Sponsor',
+      },
+      {
         name: '#local_tech',
         url: 'https://localtechjp.notion.site',
         description: '「#local_tech」は、local（誰かにとっての特別な場所・地域）に根付いて活躍している国内外のTech Company・Engineer・Product Manager・Product Designer等、Tech領域で活躍する全ての人にスポットライトを当てるメディアです。',
