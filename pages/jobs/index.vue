@@ -23,34 +23,45 @@
                   sm="4"
                   xs="6"
                   cols="6"
-                  class="justify-center"
+                  class="justify-center d-flex"
                   align="center"
                 >
-                  <a
-                    :href="content.url"
-                    target="_blank"
+                  <v-card
+                    class="job-card d-flex flex-column"
+                    height="100%"
+                    :elevation="0"
                   >
-                    <v-img
-                      class="link"
-                      :src="content.image"
-                      max-height="300px"
-                      max-width="300px"
-                    />
-                  </a>
-                  <p>
-                    {{ content.description }}
-                  </p>
-                  <a
-                    :href="content.url"
-                    target="_blank"
-                  >
-                    <v-btn
-                      size="large"
-                      color="#700002"
-                      rounded
-                      class="my-3 px-8"
-                    >SEE MORE</v-btn>
-                  </a>
+                    <div class="flex-grow-1 d-flex flex-column">
+                      <a
+                        :href="content.url"
+                        target="_blank"
+                        class="d-block text-center mb-3"
+                      >
+                        <v-img
+                          class="link mx-auto"
+                          :src="content.image"
+                          max-height="300px"
+                          max-width="300px"
+                        />
+                      </a>
+                      <p class="flex-grow-1 text-center">
+                        {{ content.description }}
+                      </p>
+                    </div>
+                    <div class="text-center mt-auto">
+                      <a
+                        :href="content.url"
+                        target="_blank"
+                      >
+                        <v-btn
+                          size="large"
+                          color="#700002"
+                          rounded
+                          class="my-3 px-8"
+                        >SEE MORE</v-btn>
+                      </a>
+                    </div>
+                  </v-card>
                 </v-col>
               </v-row>
             </div>
@@ -262,5 +273,10 @@ export default {
 .text-body-1 {
   line-height: 1.7;
   font-family: "Noto Sans JP";
+}
+
+.job-card {
+  width: 100%;
+  padding: 16px;
 }
 </style>
