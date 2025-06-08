@@ -225,7 +225,7 @@ export default {
     day1: [
       {
         name: '@.bookstore at 関西Ruby会議08',
-        url: 'https://bs.atdot.net/kanrk08.html',
+        url: 'https://bs.atdot.net/activities/kanrk08.html',
         image: '/kansai08/events/bookstore.webp',
         time: 'June 28',
         place: '先斗町歌舞練場 受付付近',
