@@ -13,7 +13,21 @@
             <h1 class="text-h4 title align-center mb-15">
               <span><v-img src="/dot.png" :width="20" class="mr-2"/></span> SCHEDULE
             </h1>
-            <v-table>
+
+            <v-btn-toggle
+              v-model="selectedTable"
+              mandatory
+              class="mb-10"
+            >
+              <v-btn value="preparty" variant="tonal">
+                前夜祭 2025.6.27
+              </v-btn>
+              <v-btn value="kaigi" variant="tonal">
+                2025.6.28
+              </v-btn>
+            </v-btn-toggle>
+
+            <v-table v-if="selectedTable === 'kaigi'">
               <tbody>
                 <tr v-for="item in schedules" :key="item.name" :class="item.type" class="text-body-2">
                   <td align="center" class="text-h6 py-3">
@@ -83,6 +97,84 @@
                 </tr>
               </tbody>
             </v-table>
+
+            <div v-if="selectedTable === 'preparty'">
+              <v-alert
+                variant="tonal"
+                density="compact"
+                class="py-10 mb-10 text-left"
+              >
+                <h3 class="text-h6">関西Ruby会議08 前夜祭</h3>
+                <v-divider class="my-5"></v-divider>
+                <p>
+                  前夜祭には当日チケットを取得された方のみご参加いただけます。詳細は connpass をご確認ください。
+                </p>
+                <v-btn
+                  size="large"
+                  class="mt-5"
+                  align="center"
+                  :href="'https://kyotorb.connpass.com/event/353449/'"
+                  target="_blank"
+                >
+                  イベントページ(connpass)
+                  <template v-slot:append>
+                    <v-icon icon="mdi-open-in-new"></v-icon>
+                  </template>
+                </v-btn>
+              </v-alert>
+              <v-table>
+                <tbody>
+                  <tr v-for="item in schedules2" :key="item.name" :class="item.type" class="text-body-2">
+                    <td align="center" class="text-h6 py-3">
+                      {{ item.start }}~{{ item.end }}
+                    </td>
+                    <td v-if="item.isTalk" align="left" class="py-10">
+                      <NuxtLink :to="item.url" class="text-link">
+                        <v-row>
+                          <v-col>
+                            <v-chip
+                              size="large"
+                              color="#C2CBFB"
+                              variant="flat"
+                              density="compact"
+                              class="px-3 mb-2"
+                              rounded="lg"
+                              v-if="item.type === 'basic'"
+                            >SESSION</v-chip>
+                            <p class="text-h6 text-left">
+                              {{ item.title }}
+                            </p>
+                            <div align="center" class="d-flex">
+                              <v-img
+                                :src="item.image"
+                                max-height="1.5rem"
+                                max-width="1.5rem"
+                                min-width="1.5rem"
+                                min-height="1.5rem"
+                                cover
+                                class="speaker-image mr-2"
+                              />
+                              <p class="text-subtitle text-left">
+                                {{ item.name }}
+                              </p>
+                            </div>
+                          </v-col>
+                        </v-row>
+                      </NuxtLink>
+                    </td>
+
+                    <td v-else class="py-10">
+                      <p class="text-h6 text-left">
+                        {{ item.title }}
+                      </p>
+                      <p class="text-subtitle text-left">
+                        {{ item.name }}
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </v-table>
+            </div>
           </v-card-item>
         </v-card>
         <Footer />
@@ -103,6 +195,7 @@ useSeoMeta({
 <script>
 export default {
   data: () => ({
+    selectedTable: 'kaigi',
     schedules: [
       {
         start: '10:00',
@@ -253,6 +346,69 @@ export default {
         type: 'primary',
       },
     ],
+    schedules2: [
+      {
+        start: '18:30',
+        end: '19:00',
+        title: 'DOOR OPEN!!!',
+        isTalk: false,
+        type: 'primary',
+      },
+      {
+        start: '19:00',
+        end: '19:05',
+        title: 'OPENING',
+        isTalk: false,
+        type: 'basic',
+      },
+      {
+        start: '19:05',
+        end: '19:25',
+        name: 'Miyuki Koshiba',
+        url: '/presentations/chobishiba',
+        title: 'Rubyでやりたい駆動開発',
+        image: 'https://avatars.githubusercontent.com/u/1327211?v=4',
+        isTalk: true,
+        type: 'basic',
+      },
+      {
+        start: '19:30',
+        end: '19:50',
+        name: 'joker1007',
+        url: '/presentations/joker1007',
+        title: 'RubyGem開発で鍛えるソフトウェア設計力',
+        image: 'https://avatars.githubusercontent.com/u/116996?v=4',
+        isTalk: true,
+        type: 'basic',
+      },
+      {
+        start: '19:55',
+        end: '20:15',
+        name: 'lni_T / ルニ',
+        url: '/presentations/lnit',
+        title: 'ruby.wasmで多人数リアルタイム通信ゲームを作ろう',
+        image: 'https://avatars.githubusercontent.com/u/6626484?v=4',
+        isTalk: true,
+        type: 'basic',
+      },
+      {
+        start: '20:20',
+        end: '20:40',
+        name: 'クドウマサヤ',
+        url: '/presentations/msykd',
+        title: 'DJ on Ruby Ver.0.1',
+        image: 'https://avatars.githubusercontent.com/u/7447363?v=4',
+        isTalk: true,
+        type: 'basic',
+      },
+      {
+        start: '21:00',
+        end: '',
+        title: 'CLOSING',
+        isTalk: false,
+        type: 'basic',
+      },
+    ],
   }),
 }
 </script>
@@ -344,5 +500,18 @@ tr.break {
 
 .speaker-image {
   border-radius: 50%;
+}
+
+.v-btn-toggle {
+  border: 1px solid #700002 !important;
+}
+
+.v-btn-toggle .v-btn {
+  color: #700002 !important;
+}
+
+.v-btn-toggle .v-btn--active {
+  background-color: #700002 !important;
+  color: white !important;
 }
 </style>
