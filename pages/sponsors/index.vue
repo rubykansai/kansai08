@@ -8,13 +8,15 @@
           :elevation="0"
         >
           <v-card-item>
-            <h1 class="text-h4 title align-center mb-10">
+            <h1 class="text-h4 title align-center mb-15">
               <span><v-img src="/dot.png" :width="20" class="mr-2"/></span> SPONSORS
             </h1>
             <div align="left">
-              <h2 align="center" class="text-h4 title mb-2">
-                Matz Sponsor
-              </h2>
+              <div class="sponsors-header">
+                <h2 align="center" class="text-h6 title">
+                  Matz Sponsor
+                </h2>
+              </div>
               <v-card
                 v-for="(content, index) in matz"
                 :key="index"
@@ -64,9 +66,11 @@
                 </v-row>
                 <v-divider class="mt-10"></v-divider>
               </v-card>
-              <h2 align="center" class="text-h4 title mb-2">
-                Take Sponsor
-              </h2>
+              <div class="sponsors-header">
+                <h2 align="center" class="text-h6 title">
+                  Take Sponsor
+                </h2>
+              </div>
               <v-card
                 v-for="(content, index) in take"
                 :key="index"
@@ -123,9 +127,11 @@
                 </v-row>
                 <v-divider class="mt-10"></v-divider>
               </v-card>
-              <h2 align="center" class="text-h4 title mb-2">
-                Ume Sponsor
-              </h2>
+              <div class="sponsors-header">
+                <h2 align="center" class="text-h6 title">
+                  Ume Sponsor
+                </h2>
+              </div>
               <v-card
                 v-for="(content, index) in ume"
                 :key="index"
@@ -434,5 +440,11 @@ export default {
 .text-body-1 {
   line-height: 1.7;
   font-family: "Noto Sans JP";
+}
+
+.sponsors-header {
+  width: 100vw;
+  background-color: #F2C6C6;
+  padding: .5rem 1rem;
 }
 </style>
