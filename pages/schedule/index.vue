@@ -34,7 +34,7 @@
                     {{ item.start }}~{{ item.end }}
                   </td>
                   <td v-if="item.isTalk" align="left" class="py-10">
-                    <NuxtLink :to="item.url" class="text-link">
+                    <NuxtLink to="#" class="text-link">
                       <v-row>
                         <v-col>
                           <v-chip
@@ -129,7 +129,7 @@
                       {{ item.start }}~{{ item.end }}
                     </td>
                     <td v-if="item.isTalk" align="left" class="py-10">
-                      <NuxtLink :to="item.url" class="text-link">
+                      <NuxtLink to="#" class="text-link">
                         <v-row>
                           <v-col>
                             <v-chip
