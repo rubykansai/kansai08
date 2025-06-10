@@ -124,7 +124,7 @@ export default {
       github: 'https://github.com/shimbaco',
       description: '仕事ではRuby on Railsを使用したWebアプリケーション開発に携わっています。休日もRailsを使って個人開発をしており、現在はアニメ視聴記録サービスやマイクロブログサービス、Wikiアプリを作っています。新規サービスのHTMLなどのソースを見てどんな技術を使っているか想像するのが好きです。',
       image: 'https://avatars.githubusercontent.com/u/56767?v=4',
-      title: 'TBD',
+      title: 'Rubyを使った10年の個人開発でやってきたこと',
       abstract: 'Koji Shimba Keynote',
       type: 'keynote',
     },

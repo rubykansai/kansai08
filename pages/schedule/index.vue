@@ -337,7 +337,7 @@ export default {
         end: '18:05',
         name: 'Koji Shimba (@shimbaco)',
         url: '/presentations/shimbaco',
-        title: 'TBD',
+        title: 'Rubyを使った10年の個人開発でやってきたこと',
         image: 'https://avatars.githubusercontent.com/u/56767?v=4',
         isTalk: true,
         type: 'keynote',
