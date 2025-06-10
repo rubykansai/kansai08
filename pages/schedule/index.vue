@@ -34,7 +34,6 @@
                     {{ item.start }}~{{ item.end }}
                   </td>
                   <td v-if="item.isTalk" align="left" class="py-10">
-                    <NuxtLink to="#" class="text-link">
                       <v-row>
                         <v-col>
                           <v-chip
@@ -82,8 +81,14 @@
                             </p>
                           </div>
                         </v-col>
+                        <v-col class="align-self-center">
+                          <NuxtLink :to="item.url" class="text-link">
+                            <p class="text-more text-right">
+                              MORE >
+                            </p>
+                          </NuxtLink>
+                        </v-col>
                       </v-row>
-                    </NuxtLink>
                   </td>
 
                   <td v-else class="py-10">
@@ -129,38 +134,43 @@
                       {{ item.start }}~{{ item.end }}
                     </td>
                     <td v-if="item.isTalk" align="left" class="py-10">
-                      <NuxtLink to="#" class="text-link">
-                        <v-row>
-                          <v-col>
-                            <v-chip
-                              size="large"
-                              color="#C2CBFB"
-                              variant="flat"
-                              density="compact"
-                              class="px-3 mb-2"
-                              rounded="lg"
-                              v-if="item.type === 'basic'"
-                            >SESSION</v-chip>
-                            <p class="text-h6 text-left">
-                              {{ item.title }}
+                      <v-row>
+                        <v-col>
+                          <v-chip
+                            size="large"
+                            color="#C2CBFB"
+                            variant="flat"
+                            density="compact"
+                            class="px-3 mb-2"
+                            rounded="lg"
+                            v-if="item.type === 'basic'"
+                          >SESSION</v-chip>
+                          <p class="text-h6 text-left">
+                            {{ item.title }}
+                          </p>
+                          <div align="center" class="d-flex">
+                            <v-img
+                              :src="item.image"
+                              max-height="1.5rem"
+                              max-width="1.5rem"
+                              min-width="1.5rem"
+                              min-height="1.5rem"
+                              cover
+                              class="speaker-image mr-2"
+                            />
+                            <p class="text-subtitle text-left">
+                              {{ item.name }}
                             </p>
-                            <div align="center" class="d-flex">
-                              <v-img
-                                :src="item.image"
-                                max-height="1.5rem"
-                                max-width="1.5rem"
-                                min-width="1.5rem"
-                                min-height="1.5rem"
-                                cover
-                                class="speaker-image mr-2"
-                              />
-                              <p class="text-subtitle text-left">
-                                {{ item.name }}
-                              </p>
-                            </div>
-                          </v-col>
-                        </v-row>
-                      </NuxtLink>
+                          </div>
+                        </v-col>
+                        <v-col class="align-self-center">
+                          <NuxtLink :to="item.url" class="text-link">
+                            <p class="text-more text-right">
+                              MORE >
+                            </p>
+                          </NuxtLink>
+                        </v-col>
+                      </v-row>
                     </td>
 
                     <td v-else class="py-10">
@@ -513,5 +523,12 @@ tr.break {
 .v-btn-toggle .v-btn--active {
   background-color: #700002 !important;
   color: white !important;
+}
+
+.text-more {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #700002;
 }
 </style>

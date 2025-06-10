@@ -23,6 +23,7 @@ export default {
   data: () => ({
     drawer: false,
     pages: [
+      { title: 'SCHEDULE', to: '/schedule' },
       { title: 'SPEAKERS', to: '/speakers' },
       { title: 'EVENTS', to: '/events' },
       { title: 'BLOG', to: 'https://note.com/kanrk/' },
