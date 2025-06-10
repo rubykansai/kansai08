@@ -19,7 +19,7 @@
                 :key="index"
                 class="py-10 px-10"
                 :elevation="0"
-                max-width="50vw"
+                max-width="800px"
               >
                 <p>
                   <a
@@ -32,16 +32,11 @@
                 :href="content.url"
                 target="_blank"
                 >
-                  <a
-                    :href="content.url"
-                    target="_blank"
-                  >
-                    <v-img
-                      class="link"
-                      :src="content.image"
-                      max-height="600px"
-                    />
-                  </a>
+                  <v-img
+                    class="link"
+                    :src="content.image"
+                    max-height="600px"
+                  />
                   <v-btn
                     size="large"
                     color="#700002"
@@ -137,7 +132,7 @@ export default {
 }
 
 .link-btn {
-  width: 100%;
+  width: 50%;
 }
 
 @media (max-width: 600px) {

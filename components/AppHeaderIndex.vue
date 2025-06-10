@@ -31,7 +31,7 @@ export default {
       { title: 'VENUE', to: 'https://www.kamogawa-odori.com/kaburenjou/' },
       { title: 'POLICIES', to: '/policies' },
       { title: 'ABOUT', to: '/about' },
-      { title: 'GOODIES', to: 'https://suzuri.jp/kyobashirb' },
+      { title: 'GOODIES', to: '/goodies' },
     ],
   }),
 }
