@@ -295,7 +295,7 @@ export default {
         name: '株式会社6VOX',
         url: 'https://6vox.com/',
         description: 'システム開発×カルチャーの実験カンパニーです 🍎💙🍈🍆🍋🍊',
-        image: '/kansai08/sponsors/sixbox.png',
+        image: '/kansai08/sponsors/sixvox.png',
         custom: 'Train Sponsor',
       },
       {
