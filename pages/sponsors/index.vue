@@ -292,6 +292,13 @@ export default {
         image: '/kansai08/sponsors/rubydevelopment.png',
       },
       {
+        name: '株式会社6VOX',
+        url: 'https://6vox.com/',
+        description: 'システム開発×カルチャーの実験カンパニーです 🍎💙🍈🍆🍋🍊',
+        image: '/kansai08/sponsors/sixbox.png',
+        custom: 'Train Sponsor',
+      },
+      {
         name: '株式会社スタメン',
         url: 'https://stmn.co.jp/',
         description: '株式会社スタメン（stmn, inc.）は、「一人でも多くの人に、感動を届け、幸せを広める」という経営理念のもと、様々な事業を展開し、「人と組織の力」と「テクノロジーの可能性」の可能性を最大限に引き出す企業を目指しています。その祖業である従業員体験プラットフォーム「TUNAG」ではRuby最新版とそのエコシステムを活用して事業拡大とオープンソースコミュニティへの還元を両立しています。',
