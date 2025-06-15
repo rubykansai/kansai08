@@ -226,7 +226,7 @@ export default {
         end: '11:40',
         name: 'Masataka Kuwabara (@pocke)',
         url: '/presentations/pocke',
-        title: 'TBD',
+        title: 'Witchcraft for Memory',
         image: 'https://avatars.githubusercontent.com/u/4361134?v=4',
         isTalk: true,
         type: 'keynote',

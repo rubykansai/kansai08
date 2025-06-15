@@ -124,7 +124,7 @@ export default {
       github: 'https://github.com/pocke',
       description: 'A maintainer of RBS, a Ruby committer.',
       image: 'https://avatars.githubusercontent.com/u/4361134?v=4',
-      title: 'TBD',
+      title: 'Witchcraft for Memory',
       abstract: 'Masataka Kuwabara Keynote',
       type: 'keynote',
     },
