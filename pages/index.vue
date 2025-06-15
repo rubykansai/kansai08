@@ -56,19 +56,6 @@
                   class="v-btn-register mr-3"
                 >REGISTER NOW</v-btn>
               </a>
-              <a
-                href="https://hackmd.io/@ydah/kanrk08-sponsor"
-                target="_blank"
-                class="a-btn a-register"
-              >
-                <v-btn
-                  size="x-large"
-                  color="white"
-                  variant="outlined"
-                  rounded
-                  class="v-btn-cfs"
-                >CALL FOR SPONSORS</v-btn>
-              </a>
             </div>
             <div class="justify-center d-block d-md-none">
               <a
@@ -82,19 +69,6 @@
                   rounded
                   class="v-btn-register mb-4"
                 >REGISTER NOW</v-btn>
-              </a>
-              <a
-                href="https://hackmd.io/@ydah/kanrk08-sponsor"
-                target="_blank"
-                class="a-register a-btn"
-              >
-                <v-btn
-                  size="large"
-                  color="white"
-                  variant="outlined"
-                  rounded
-                  class="v-btn-cfs"
-                >CALL FOR SPONSORS</v-btn>
               </a>
             </div>
           </v-card-item>
