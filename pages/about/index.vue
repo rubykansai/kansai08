@@ -570,13 +570,6 @@ export default{
         image: 'https://avatars.githubusercontent.com/u/911903',
       },
       {
-        name: '温井直輝',
-        twitter: 'https://twitter.com/Kinukui2003',
-        github: 'https://github.com/nnnnnnnnnke',
-        role: 'NOC member',
-        image: '/kansai08/Kinukui2003.png',
-      },
-      {
         name: 'Yoshi',
         twitter: 'https://twitter.com/mantohihi139697',
         github: 'https://github.com/mantohihi1',
