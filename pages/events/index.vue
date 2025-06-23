@@ -257,7 +257,7 @@ export default {
         image: '/kansai08/events/uchiage.png',
         time: 'June 29, 15:00 - 18:00',
         place: 'Beer Cafe 麦潤',
-        price: 'Cash on (調整中)',
+        price: '¥8,000',
       },
     ],
   }),
