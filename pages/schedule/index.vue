@@ -263,7 +263,7 @@ export default {
         end: '14:00',
         name: '影山勝彦',
         url: '/presentations/kishima',
-        title: 'mrubyとmicro-ROSが繋ぐロボットの世界側',
+        title: 'mrubyとmicro-ROSが繋ぐロボットの世界',
         image: 'https://avatars.githubusercontent.com/u/291438?v=4',
         isTalk: true,
         type: 'basic',
