@@ -46,7 +46,7 @@
               <h4 align="center" class="text-h4 mb-10">
                 Organizers
               </h4>
-              <v-row>
+              <v-row class="mb-10">
                 <v-col
                   v-for="(organizer, index) in organizers"
                   :key="index"
@@ -103,7 +103,7 @@
               <h4 align="center" class="text-h4 mb-10">
                 Designers
               </h4>
-              <v-row>
+              <v-row class="mb-10">
                 <v-col
                   v-for="(designer, index) in designers"
                   :key="index"
@@ -160,7 +160,7 @@
               <h4 align="center" class="text-h4 mb-10">
                 Wi-Fi and Network Operations
               </h4>
-              <v-row>
+              <v-row class="mb-10">
                 <v-col
                   v-for="(noc, index) in nocMembers"
                   :key="index"
@@ -214,6 +214,60 @@
                   </v-card>
                 </v-col>
               </v-row>
+              <h4 align="center" class="text-h4 mb-10">
+                Our Communities
+              </h4>
+              <v-row class="mb-10">
+                <v-col
+                  v-for="(community, index) in communities"
+                  :key="index"
+                  md="3"
+                  sm="4"
+                >
+                  <v-card
+                    class="organizers"
+                    align="center"
+                    flat
+                  >
+                    <a :href="community.link" target="_blank" class="community-link">
+                      <div class="py-2 px-2">
+                        <v-img
+                          :src="community.image"
+                          max-height="145px"
+                          max-width="145px"
+                          cover
+                          class="community-image"
+                        />
+                        <v-card-title class="text-body-2">{{ community.name }}</v-card-title>
+                      </div>
+                    </a>
+                  </v-card>
+                </v-col>
+              </v-row>
+              <h4 align="center" class="text-h4 mb-10">
+                Supporter
+              </h4>
+              <v-row class="mb-10" justify="center">
+                <v-col>
+                  <v-card
+                    class="supporters"
+                    align="center"
+                    flat
+                  >
+                    <a :href="supporter.link" target="_blank" class="supporter-link">
+                      <div class="py-2 px-2">
+                        <v-img
+                          :src="supporter.image"
+                          max-height="300px"
+                          max-width="300px"
+                          cover
+                          class="supporter-image"
+                        />
+                      </div>
+                    </a>
+                  </v-card>
+                </v-col>
+              </v-row>
             </div>
           </v-card-item>
         </v-card>
@@ -260,7 +314,7 @@
               <h4 align="center" class="text-h4 mb-10">
                 Organizers
               </h4>
-              <v-row>
+              <v-row class="mb-10">
                 <v-col
                   v-for="(organizer, index) in organizers"
                   :key="index"
@@ -300,7 +354,7 @@
               <h4 align="center" class="text-h4 mb-10">
                 Designers
               </h4>
-              <v-row>
+              <v-row class="mb-10">
                 <v-col
                   v-for="(designer, index) in designers"
                   :key="index"
@@ -340,7 +394,7 @@
               <h4 align="center" class="text-h4 mb-10">
                 Wi-Fi and Network Operations
               </h4>
-              <v-row>
+              <v-row class="mb-10">
                 <v-col
                   v-for="(noc, index) in nocMembers"
                   :key="index"
@@ -374,6 +428,59 @@
                         /></a>
                       </div>
                     </div>
+                  </v-card>
+                </v-col>
+              </v-row>
+              <h4 align="center" class="text-h4 mb-10">
+                Our Communities
+              </h4>
+              <v-row class="mb-10">
+                <v-col
+                  v-for="(community, index) in communities"
+                  :key="index"
+                  cols="6"
+                >
+                  <v-card
+                    class="organizers"
+                    align="center"
+                    flat
+                  >
+                    <a :href="community.link" target="_blank" class="community-link">
+                      <div class="py-2 px-2">
+                        <v-img
+                          :src="community.image"
+                          max-height="145px"
+                          max-width="145px"
+                          cover
+                          class="community-image"
+                        />
+                        <v-card-title class="text-body-2">{{ community.name }}</v-card-title>
+                      </div>
+                    </a>
+                  </v-card>
+                </v-col>
+              </v-row>
+              <h4 align="center" class="text-h4 mb-10">
+                Supporter
+              </h4>
+              <v-row class="mb-10" justify="center">
+                <v-col>
+                  <v-card
+                    class="supporters"
+                    align="center"
+                    flat
+                  >
+                    <a :href="supporter.link" target="_blank" class="supporter-link">
+                      <div class="py-2 px-2">
+                        <v-img
+                          :src="supporter.image"
+                          max-height="250px"
+                          max-width="250px"
+                          cover
+                          class="supporter-image"
+                        />
+                      </div>
+                    </a>
                   </v-card>
                 </v-col>
               </v-row>
@@ -577,6 +684,24 @@ export default{
         image: 'https://avatars.githubusercontent.com/u/170410265',
       },
     ],
+    communities: [
+      { name: 'AKASHI.rb', link: 'https://akashi-rb.connpass.com/', image: '/kansai08/communities/akashi.png' },
+      { name: 'Hirakata.rb', link: 'https://hirakatarb.connpass.com/', image: '/kansai08/communities/default.png' },
+      { name: 'KOBE.rb', link: 'https://koberb.doorkeeper.jp/', image: '/kansai08/communities/kobe.png' },
+      { name: 'Kyobashi.rb', link: 'https://kyobashirb.connpass.com/', image: '/kansai08/communities/kyobashi.png' },
+      { name: 'Kyoto.rb', link: 'https://kyotorb.connpass.com/', image: '/kansai08/communities/kyoto.png' },
+      { name: 'naniwa.rb', link: 'https://naniwarb.doorkeeper.jp/', image: '/kansai08/communities/naniwa.png' },
+      { name: 'Ruby関西', link: 'https://rubykansai.doorkeeper.jp/', image: '/kansai08/communities/rubykansai.png' },
+      { name: 'Ruby舞鶴', link: 'https://ruby-maizuru.connpass.com/', image: '/kansai08/communities/rubymaizuru.png' },
+      { name: 'Ruby Tuesday', link: 'https://ruby-tuesday.doorkeeper.jp/', image: '/kansai08/communities/rubytuesday.png' },
+      { name: 'Shinosaka.rb', link: 'https://shinosakarb.doorkeeper.jp/', image: '/kansai08/communities/shinosaka.png' },
+      { name: 'Wakayama.rb', link: 'https://wakayama-rb.connpass.com/', image: '/kansai08/communities/wakayama.png' },
+    ],
+    supporter: {
+      name: '日本Rubyの会',
+      link: 'https://ruby-no-kai.org/',
+      image: '/kansai08/communities/rubynokai.png',
+    },
   }),
 }
 </script>
@@ -635,6 +760,36 @@ useSeoMeta({
 .v-card-subtitle {
   font-weight: 500 !important;
   font-size: 0.775rem !important;
+}
+
+.community-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.community-link:hover .community-image {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.community-image {
+  transition: all 0.3s ease;
+}
+
+.supporter-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.supporter-link:hover .supporter-image {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.supporter-image {
+  transition: all 0.3s ease;
 }
 
 </style>
