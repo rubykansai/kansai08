@@ -202,7 +202,7 @@ export default {
       name: '関西地域.rb Organizers',
       image: 'https://avatars.githubusercontent.com/u/210475839?v=4',
       title: 'Regional.rb and the Kyoto City',
-      abstract: '関西の地域.rbのオーガナイザーが関西Ruby会議に集結！',
+      abstract: '複雑に入り組んだ現代社会に鋭いメスを入れ、さまざまな地域.rbを徹底的に究明する、Regional.rb and the Kyoto City。',
       type: 'panel',
     },
     communities: [
