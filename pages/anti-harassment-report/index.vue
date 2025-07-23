@@ -82,6 +82,8 @@
 useSeoMeta({
   title: '関西Ruby会議08の本編においてのアンチハラスメントポリシーに抵触する行為に関するお詫びとご報告',
   ogTitle: '関西Ruby会議08の本編においてのアンチハラスメントポリシーに抵触する行為に関するお詫びとご報告',
+  description: '',
+  ogDescription: '',
 })
 </script>
 
