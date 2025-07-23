@@ -127,6 +127,7 @@ export default {
       title: 'Rubyを使った10年の個人開発でやってきたこと',
       abstract: 'Koji Shimba Keynote',
       type: 'keynote',
+      slide: 'https://speakerdeck.com/shimbaco/rubywoshi-tuta10nian-noge-ren-kai-fa-teyatutekitakoto',
     },
   }),
 }

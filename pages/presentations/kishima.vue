@@ -127,6 +127,7 @@ export default {
       title: 'mrubyとmicro-ROSが繋ぐロボットの世界',
       abstract: 'PicoRubyやMicroRubyの登場によってRubyでも物理的なデバイスをコントロールすることに注目が集まっている昨今、最近仕事でロボットを扱っている私は、ロボットもその仲間に加えることはできないかと考えるようになりました。\n\nロボットの制御の世界では、ROS（Robot Operating System）とよばれるOSSのフレームワークが広く使われています。通常はLinuxが前提となるROSなのですが、組み込みデバイス上でも動くmicro-ROSというものが存在します。\n\nmicro-ROSは、Cでの開発が前提となる環境ですが、それをRuby（mruby）で書けたらきっと楽しく開発できるだろうと思い、mrubyでmicro-ROSが使える環境を実装したいと考えています。\n\n本発表では、そのプロトタイプの実装内容と技術的な課題、そして実際にロボット制御のデモの動画を紹介します。',
       type: 'basic',
+      slide: 'https://speakerdeck.com/kishima/mrubyto-micro-rosgaxi-gurobotutonoshi-jie',
     },
   }),
 }

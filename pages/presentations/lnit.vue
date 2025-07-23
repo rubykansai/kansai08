@@ -127,6 +127,7 @@ export default {
       title: 'ruby.wasmで多人数リアルタイム通信ゲームを作ろう',
       abstract: 'Rubyはバージョン3.2.0にてWebAssemblyがサポートされ、ブラウザやCDNエッジ等、WebAssemblyが動作する環境でRuby(ruby.wasm)が動作するようになりました。\nこれにより、以前は別言語での実装が必要だった機能においても、Rubyコードで実装することが可能となりました。\n\nそんなruby.wasmに、WebSocketの力が加わると、もっと楽しいものが作り出せるのではないでしょうか。\n\n今回のトークは「ruby.wasmでのリアルタイム通信」をメインテーマに、ruby.wasm on Browser 環境での開発を始める方法の紹介と、実際に開発したアプリの解説を行います。',
       type: 'basic',
+      slide: 'https://speakerdeck.com/lnit/kansairubykaigi08-wasm-websocket',
     },
   }),
 }

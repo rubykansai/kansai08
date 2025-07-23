@@ -127,6 +127,7 @@ export default {
       title: '分散オブジェクトで遊ぼう！〜dRubyで作るマルチプレイヤー迷路ゲーム〜',
       abstract: 'Ruby専用の分散オブジェクトシステムであるdRubyを使って、ブラウザで遊べる協力型マルチプレイヤー迷路ゲームを作りました！\n\nこのゲームでは、様々な役割を持つプレイヤーが力を合わせて迷路を攻略します。dRubyとWebSocketを組み合わせたリアルタイム通信や、マルチスレッドを使った効率的な処理など、Rubyならではの書きやすさと読みやすさを活かした実装のポイントをご紹介します。\n\nたとえば、以下のようなシンプルなコードだけで、複数プレイヤーが同時に遊べるゲームの基盤が作れてしまいます。\n\n# サーバー側\nDRb.start_service(\'druby://localhost:8787\', GameServer.new)\n\n# クライアント側\ngame = DRbObject.new_with_uri(\'druby://localhost:8787\')\ngame.join(player_id)\n\nこのゲームを通してRubyの魅力を再発見し、分散オブジェクトプログラミングの可能性を一緒に体験しましょう！',
       type: 'basic',
+      slide: 'https://speakerdeck.com/yumu/fen-san-obuziekutodeyou-bou-drubydezuo-rumarutipureiyami-lu-gemu-guan-xi-rubyhui-yi-08',
     },
   }),
 }

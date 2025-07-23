@@ -127,6 +127,7 @@ export default {
       title: 'Witchcraft for Memory',
       abstract: 'Masataka Kuwabara Keynote',
       type: 'keynote',
+      slide: 'https://speakerdeck.com/pocke/witchcraft-for-memory',
     },
   }),
 }

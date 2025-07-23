@@ -127,6 +127,7 @@ export default {
       title: 'ruby.DJ on Ruby Ver.0.1',
       abstract: '2025年4月末よりRubyでDJソフトウェアの開発に着手し始めました。\nPoC(Proof of Concept)版のデモ実演、工夫したポイントや技術的な課題、今後の展望をご紹介します。\n\n私はエンジニア歴15年、DJ歴16年という二足の草鞋を履き続けています。DJはPCで回しており、Serato ITCHというDJソフトウェアを愛用し続けています。\nRubyKaigi 2025にてRubyで音を鳴らすことをテーマにした発表が多く刺激を受け、DJソフトウェアの開発にチャレンジする決意をしました。\n\nPoC版は、Ruby(gtk4)で実装したアプリケーションUIから、Rustで実装したオーディオエンジンをFFIで呼び出す構成で開発を試しています。2トラックでのWavファイルの再生、およびクロスフェードで曲を繋ぐ様子をデモでお届けする予定です。',
       type: 'basic',
+      slide: 'https://speakerdeck.com/msykd/250627_kansai_ruby_kaigi_08_reject_kaigi',
     },
   }),
 }

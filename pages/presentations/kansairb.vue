@@ -204,6 +204,7 @@ export default {
       title: 'Regional.rb and the Kyoto City',
       abstract: '複雑に入り組んだ現代社会に鋭いメスを入れ、さまざまな地域.rbを徹底的に究明する、Regional.rb and the Kyoto City。',
       type: 'panel',
+      slide: 'https://speakerdeck.com/ydah/regionalrb-and-the-kyoto-city',
     },
     communities: [
       { name: 'AKASHI.rb', url: 'https://akashi-rb.connpass.com/' },
