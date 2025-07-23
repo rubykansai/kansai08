@@ -33,43 +33,19 @@
                 @先斗町歌舞練場
               </a>
             </div>
-            <div class="text-h5 keynotes mb-16 d-none d-md-block">
+            <div class="text-h5 keynotes mb-8 d-none d-md-block">
               KEYNOTE SPEAKERS:<span class="text-h5 keynotes speakers ml-3">Koji Shimba (@shimbaco) / Masataka Kuwabara (@pocke)</span>
             </div>
             <div class="text-h5 keynotes d-block d-md-none mb-3">
               KEYNOTE SPEAKERS:
             </div>
-            <div class="text-h5 keynotes speakers mb-8 d-block d-md-none">
+            <div class="text-h5 keynotes speakers mb-5 d-block d-md-none">
               Koji Shimba (@shimbaco)<br/>
               Masataka Kuwabara (@pocke)
             </div>
-            <div class="justify-center d-none d-sm-flex">
-              <a
-                href="https://ti.to/kansairubykaigi/08"
-                target="_blank"
-                class="mr-3 a-btn"
-              >
-                <v-btn
-                  size="x-large"
-                  color="white"
-                  rounded
-                  class="v-btn-register mr-3"
-                >REGISTER NOW</v-btn>
-              </a>
-            </div>
-            <div class="justify-center d-block d-md-none">
-              <a
-                href="https://ti.to/kansairubykaigi/08"
-                target="_blank"
-                class="a-btn"
-              >
-                <v-btn
-                  size="large"
-                  color="white"
-                  rounded
-                  class="v-btn-register mb-4"
-                >REGISTER NOW</v-btn>
-              </a>
+            <div class="justify-center">
+              <p class="message mb-3">イベントは終了しました。<br/>たくさんのご来場・ご参加ありがとうございました！</p>
+              <NuxtLink class="message-link" to="/anti-harassment-report"> 関西Ruby会議08の本編においてのアンチハラスメントポリシーに抵触する行為に関するお詫びとご報告</NuxtLink>
             </div>
           </v-card-item>
         </v-card>
@@ -126,6 +102,14 @@
 .v-btn-register, .v-btn-cfs {
   min-width: 18rem;
   font-family: 'Kumbh Sans', serif;
+}
+
+.message {
+  font-size: 1.2rem !important;
+}
+
+.message-link {
+  font-size: 1rem !important;
 }
 
 .corner {
