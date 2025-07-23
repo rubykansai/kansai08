@@ -1,0 +1,1 @@
+import{_ as n,c as t,o,a as s,p as c}from"./DQbqDDjt.js";const _={},a={align:"center",class:"mb-3"};function r(p,e){return o(),t("div",a,e[0]||(e[0]=[s("p",null,"関西Ruby会議08 ©2025",-1),s("p",null,"Designed by reina",-1)]))}const l=n(_,[["render",r]]),d=c("/dot.png");export{d as _,l as a};
